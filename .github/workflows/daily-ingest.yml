@@ -38,11 +38,25 @@ jobs:
           import json, sys
           with open('data/signals.json', 'r', encoding='utf-8') as f:
               signals = json.load(f)
-              assert isinstance(signals, list) and len(signals) > 0, 'data/signals.json must contain a non-empty list'
+          if not isinstance(signals, list) or len(signals) == 0:
+              print('Error: data/signals.json must contain a non-empty list', file=sys.stderr)
+              sys.exit(1)
+
           with open('data/meta.json', 'r', encoding='utf-8') as f:
               meta = json.load(f)
-              assert isinstance(meta, dict) and 'last_updated' in meta and 'total_signals' in meta, 'data/meta.json must be a valid metadata dict'
-          print(f'Ingest integrity verified: {len(signals)} signals, last updated {meta.get(\"last_updated\")}')
+          if not isinstance(meta, dict):
+              print('Error: data/meta.json must be a dictionary', file=sys.stderr)
+              sys.exit(1)
+
+          required_keys = ['last_ingest_utc', 'signals_total_30d', 'feeds_status']
+          missing = [k for k in required_keys if k not in meta]
+          if missing:
+              print(f'Error: data/meta.json missing required keys: {missing}', file=sys.stderr)
+              sys.exit(1)
+
+          utc = meta.get('last_ingest_utc')
+          total_30d = meta.get('signals_total_30d')
+          print(f'Ingest integrity verified: {len(signals)} signals, last ingest {utc}, 30d total: {total_30d}')
           "
 
       - name: Commit and push changes
