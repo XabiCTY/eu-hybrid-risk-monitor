@@ -33,6 +33,184 @@ CANONICAL_REGULATIONS: List[str] = [
     "EU Sanctions",
 ]
 
+CANONICAL_THEATERS: List[str] = [
+    "EU-Wide",
+    "Baltics & Nordics",
+    "Eastern Flank",
+    "Western Europe",
+    "Southern Europe & Med",
+    "Subsea & Maritime",
+    "Transatlantic / Global",
+]
+
+CANONICAL_ACTORS: List[str] = [
+    "Russia / Kremlin",
+    "GRU / Unit 29155",
+    "APT28",
+    "Sandworm",
+    "APT29",
+    "China / PRC",
+    "Volt Typhoon",
+    "Salt Typhoon",
+    "Iran / IRGC",
+    "DPRK / Lazarus",
+    "Belarus",
+    "Hezbollah / Proxies",
+    "Wagner / Africa Corps",
+]
+
+# Specificity-ordered operational theater patterns (strict word boundaries \b...\b)
+THEATER_PATTERNS: List[Tuple[str, List[Tuple[str, int]]]] = [
+    (
+        "Subsea & Maritime",
+        [
+            (
+                r"\b(subsea|undersea|balticconnector|nord stream|pipeline|pipelines|"
+                r"shadow fleet|maritime|red sea|anchor drag|tanker|tankers|"
+                r"subsea cable|undersea cable|subsea infrastructure|undersea infrastructure|"
+                r"shipping corridor|gas infrastructure|offshore pipeline|offshore wind)\b",
+                re.IGNORECASE,
+            ),
+        ],
+    ),
+    (
+        "Baltics & Nordics",
+        [
+            (
+                r"\b(baltic|baltics|baltic sea|nordic|nordics|finland|finnish|helsinki|"
+                r"sweden|swedish|stockholm|norway|norwegian|oslo|denmark|danish|copenhagen|"
+                r"estonia|estonian|tallinn|latvia|latvian|riga|lithuania|lithuanian|vilnius|"
+                r"arctic|svalbard|gotland|kaliningrad|barents)\b",
+                re.IGNORECASE,
+            ),
+        ],
+    ),
+    (
+        "Eastern Flank",
+        [
+            (
+                r"\b(eastern flank|poland|polish|warsaw|romania|romanian|bucharest|"
+                r"czechia|czech|prague|slovakia|slovak|bratislava|bulgaria|bulgarian|sofia|"
+                r"hungary|hungarian|budapest|moldova|moldovan|chisinau|transnistria|"
+                r"ukraine|ukrainian|kyiv|black sea|crimea|donbas|bucha|suwalki)\b",
+                re.IGNORECASE,
+            ),
+        ],
+    ),
+    (
+        "Western Europe",
+        [
+            (
+                r"\b(western europe|france|french|paris|anssi|germany|german|berlin|bundestag|"
+                r"netherlands|dutch|amsterdam|the hague|belgium|belgian|brussels|"
+                r"united kingdom|british|britain|london|ireland|irish|dublin|"
+                r"switzerland|swiss|zurich|geneva|austria|austrian|vienna|luxembourg|"
+                r"north sea|asml)\b",
+                re.IGNORECASE,
+            ),
+            (r"\b(UK|U\.K\.)\b", 0),
+        ],
+    ),
+    (
+        "Southern Europe & Med",
+        [
+            (
+                r"\b(southern europe|mediterranean|spain|spanish|madrid|italy|italian|rome|"
+                r"portugal|portuguese|lisbon|greece|greek|athens|cyprus|cypriot|nicosia|"
+                r"malta|maltese|valletta|gibraltar|adriatic|aegean|kosovo|western balkans)\b",
+                re.IGNORECASE,
+            ),
+        ],
+    ),
+    (
+        "EU-Wide",
+        [
+            (
+                r"\b(eu-wide|european union|pan-european|europe|european|"
+                r"european commission|european parliament|council of the eu|eu council|"
+                r"european council|enisa|cert-eu|eeas|euvsdisinfo|euiss|europol|frontex|"
+                r"ecb|nis2|cer directive|eu ai act|cyber resilience act|dora|eurocontrol|"
+                r"galileo|iris2|copernicus|member states|schengen|eurozone|"
+                r"single reporting platform)\b",
+                re.IGNORECASE,
+            ),
+            (r"\bEU\b", 0),
+        ],
+    ),
+    (
+        "Transatlantic / Global",
+        [
+            (
+                r"\b(transatlantic|nato|united states|america|american|washington|"
+                r"pentagon|white house|cisa|aukus|un general assembly|unga|iaea|"
+                r"indo-pacific|global|worldwide|middle east|gaza|abu dhabi|somalia|"
+                r"armenia|armenian|azerbaijan)\b",
+                re.IGNORECASE,
+            ),
+            (r"\b(US|U\.S\.)\b", 0),
+        ],
+    ),
+]
+
+# Strict word-boundary regexes for explicitly named state sponsors, intelligence services, proxies, and APTs
+ACTOR_PATTERNS: List[Tuple[str, str]] = [
+    (
+        "Russia / Kremlin",
+        r"\b(russia|russian|kremlin|moscow|putin|pro-kremlin|fsb|svr)\b",
+    ),
+    (
+        "GRU / Unit 29155",
+        r"\b(gru|unit 29155|unit 26165|unit 74455|cadet blizzard)\b",
+    ),
+    (
+        "APT28",
+        r"\b(apt28|apt 28|fancy bear|forest blizzard|sofacy|pawn storm|strontium)\b",
+    ),
+    (
+        "Sandworm",
+        r"\b(sandworm|seashell blizzard|iridium|voodoo bear|electrum)\b",
+    ),
+    (
+        "APT29",
+        r"\b(apt29|apt 29|cozy bear|midnight blizzard|nobelium|the dukes)\b",
+    ),
+    (
+        "China / PRC",
+        r"\b(china|chinese|prc|beijing|ccp|people's republic of china|people’s republic of china|"
+        r"people's republic|people’s republic|mss|ministry of state security|mustang panda|flax typhoon)\b",
+    ),
+    (
+        "Volt Typhoon",
+        r"\b(volt typhoon|vanguard panda|bronze silhouette)\b",
+    ),
+    (
+        "Salt Typhoon",
+        r"\b(salt typhoon|famous sparrow|ghostemperor)\b",
+    ),
+    (
+        "Iran / IRGC",
+        r"\b(iran|iranian|tehran|irgc|islamic revolutionary guard|muddywater|charming kitten|"
+        r"apt33|apt34|apt35|apt42)\b",
+    ),
+    (
+        "DPRK / Lazarus",
+        r"\b(dprk|north korea|north korean|pyongyang|lazarus|lazarus group|kimsuky|andariel|"
+        r"bluenoroff|apt38)\b",
+    ),
+    (
+        "Belarus",
+        r"\b(belarus|belarusian|minsk|lukashenko|ghostwriter|unc1151)\b",
+    ),
+    (
+        "Hezbollah / Proxies",
+        r"\b(hezbollah|houthi|houthis|ansar allah|hamas|islamic jihad)\b",
+    ),
+    (
+        "Wagner / Africa Corps",
+        r"\b(wagner|wagner group|africa corps|prigozhin)\b",
+    ),
+]
+
 # Keywords that indicate consumer / off-topic promotional noise or HR job postings
 NOISE_PATTERNS: List[str] = [
     r"\bbest vpn\b",
@@ -262,6 +440,66 @@ def _match_keywords(text_lower: str, keyword_map: Dict[str, List[str]]) -> List[
     return matched
 
 
+def classify_theaters(
+    title: str,
+    summary: str,
+    source_name: str,
+    is_kev: bool = False,
+) -> List[str]:
+    """
+    Classify a signal into 1-2 canonical geopolitical theaters based on
+    geographic and institutional references in title + summary using strict
+    word-boundary regex matching. Guarantees at least 1 canonical theater.
+    """
+    text_raw = f"{title} {summary}"
+    matched: List[str] = []
+
+    for theater, pattern_specs in THEATER_PATTERNS:
+        for pat, flags in pattern_specs:
+            if re.search(pat, text_raw, flags=flags):
+                matched.append(theater)
+                break
+
+    # Prioritize specific regional/functional theaters first, cap at 2
+    selected = matched[:2]
+
+    if not selected:
+        if is_kev or source_name == "CISA KEV Catalog":
+            selected = ["Transatlantic / Global"]
+        elif source_name in (
+            "CERT-EU",
+            "ENISA",
+            "EEAS",
+            "EUvsDisinfo",
+            "EUISS",
+            "Hybrid CoE",
+            "CERT-FR / ANSSI",
+            "NCSC-NL",
+            "NCSC-UK",
+        ):
+            selected = ["EU-Wide"]
+        else:
+            selected = ["Transatlantic / Global"]
+
+    return [t for t in CANONICAL_THEATERS if t in selected]
+
+
+def extract_actors(title: str, summary: str) -> List[str]:
+    """
+    Extract ONLY explicitly named state sponsors, intelligence services, proxies,
+    or APT groups using strict word-boundary regexes. Returns [] when unattributed.
+    """
+    text_raw = f"{title} {summary}"
+    matched: List[str] = []
+
+    for actor_name, pattern in ACTOR_PATTERNS:
+        if re.search(pattern, text_raw, flags=re.IGNORECASE):
+            if actor_name not in matched:
+                matched.append(actor_name)
+
+    return matched
+
+
 def classify_signal(
     title: str,
     summary: str,
@@ -274,8 +512,9 @@ def classify_signal(
 ) -> Dict[str, object]:
     """
     Deterministically map a signal onto canonical NIS2 sectors, threat vectors,
-    domain, EU regulations, and exposure tier (HIGH | MODERATE | LOW).
-    Guarantees non-empty sectors, vectors, and regulations arrays.
+    domain, EU regulations, exposure tier (HIGH | MODERATE | LOW), geopolitical
+    theaters, and explicitly attributed threat actors.
+    Guarantees non-empty sectors, vectors, regulations, and theaters arrays.
     """
     cves = cve_ids or []
     combined = f"{title} {summary} {source_name}".lower()
@@ -380,10 +619,21 @@ def classify_signal(
     else:
         exposure = "LOW"
 
+    # 6. Geopolitical Theaters & Attributed Actors
+    theaters = classify_theaters(
+        title=title,
+        summary=summary,
+        source_name=source_name,
+        is_kev=is_kev,
+    )
+    actors = extract_actors(title=title, summary=summary)
+
     return {
         "domain": domain,
         "vectors": vectors,
         "sectors": sectors,
         "regulations": regulations,
         "exposure": exposure,
+        "theaters": theaters,
+        "actors": actors,
     }

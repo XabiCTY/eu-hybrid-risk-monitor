@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { DOMAIN_LABELS } from "@/lib/constants";
+import { writeClipboard } from "@/lib/export";
 import type { Signal } from "@/lib/types";
 import { ExposureBadge, formatPercent } from "./SignalCard";
 
@@ -11,23 +12,9 @@ interface SignalDrawerProps {
 }
 
 function buildCitation(s: Signal): string {
-  return `[${s.id}] "${s.title}" — ${s.source_name}, ${s.published_at}. Sectors: ${s.sectors.join(", ")}. Exposure: ${s.exposure}. URL: ${s.source_url}`;
-}
-
-async function writeClipboard(text: string): Promise<void> {
-  try {
-    await navigator.clipboard.writeText(text);
-  } catch {
-    const area = document.createElement("textarea");
-    area.value = text;
-    area.setAttribute("readonly", "");
-    area.style.position = "fixed";
-    area.style.opacity = "0";
-    document.body.appendChild(area);
-    area.select();
-    document.execCommand("copy");
-    document.body.removeChild(area);
-  }
+  const actor =
+    s.actors.length > 0 ? ` Attributed actor: ${s.actors.join(", ")}.` : "";
+  return `[${s.id}] "${s.title}" — ${s.source_name}, ${s.published_at}. Sectors: ${s.sectors.join(", ")}. Theater: ${s.theaters.join(", ")}.${actor} Exposure: ${s.exposure}. URL: ${s.source_url}`;
 }
 
 const FOCUSABLE =
@@ -204,6 +191,42 @@ function Panel({ signal, onClose }: { signal: Signal; onClose: () => void }) {
                 </li>
               ))}
             </ul>
+          </section>
+
+          <section className="mt-6">
+            <h3 className="font-mono text-[11px] uppercase tracking-wider text-muted">
+              Operational Theaters
+            </h3>
+            <ul className="mt-2 flex flex-wrap gap-2">
+              {signal.theaters.map((t) => (
+                <li
+                  key={t}
+                  className="border border-rule bg-stone px-2 py-0.5 font-mono text-[11px] uppercase text-ink"
+                >
+                  {t}
+                </li>
+              ))}
+            </ul>
+            {signal.actors.length > 0 ? (
+              <>
+                <h3 className="mt-4 font-mono text-[11px] uppercase tracking-wider text-muted">
+                  Explicitly Attributed Actors
+                </h3>
+                <ul className="mt-2 flex flex-wrap gap-2">
+                  {signal.actors.map((a) => (
+                    <li
+                      key={a}
+                      className="border border-oxford px-2 py-0.5 font-mono text-[11px] uppercase text-oxford"
+                    >
+                      {a}
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-2 text-xs text-muted">
+                  Named in the source text; never inferred by this platform.
+                </p>
+              </>
+            ) : null}
           </section>
 
           <section className="mt-6 border border-rule bg-stone p-4">

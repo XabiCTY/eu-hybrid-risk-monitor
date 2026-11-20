@@ -14,6 +14,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -40,6 +44,10 @@
       "Energy",
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2",
       "CER"
@@ -64,6 +72,13 @@
     ],
     "sectors": [
       "Energy"
+    ],
+    "theaters": [
+      "Baltics & Nordics",
+      "Subsea & Maritime"
+    ],
+    "actors": [
+      "Russia / Kremlin"
     ],
     "regulations": [
       "NIS2",
@@ -91,6 +106,11 @@
       "Defense",
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide",
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "EU AI Act"
     ],
@@ -115,6 +135,11 @@
     "sectors": [
       "Energy"
     ],
+    "theaters": [
+      "EU-Wide",
+      "Western Europe"
+    ],
+    "actors": [],
     "regulations": [
       "CER"
     ],
@@ -139,6 +164,11 @@
     "sectors": [
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide",
+      "Southern Europe & Med"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -164,6 +194,11 @@
       "Energy",
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide",
+      "Eastern Flank"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2",
       "CER"
@@ -189,6 +224,11 @@
     "sectors": [
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide",
+      "Western Europe"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -214,6 +254,10 @@
       "Defense",
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "EU Sanctions"
     ],
@@ -237,6 +281,12 @@
     ],
     "sectors": [
       "Defense"
+    ],
+    "theaters": [
+      "Eastern Flank"
+    ],
+    "actors": [
+      "Russia / Kremlin"
     ],
     "regulations": [
       "NIS2"
@@ -263,6 +313,11 @@
       "Defense",
       "Public Admin"
     ],
+    "theaters": [
+      "Eastern Flank",
+      "Western Europe"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -287,6 +342,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -311,6 +370,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -335,6 +398,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -359,6 +426,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -383,6 +454,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -407,6 +482,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -431,6 +510,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -455,6 +538,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -479,6 +566,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -503,6 +594,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -529,6 +624,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -555,6 +654,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -581,6 +684,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -607,6 +714,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -634,6 +745,12 @@
       "Defense",
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [
+      "China / PRC"
+    ],
     "regulations": [
       "NIS2"
     ],
@@ -657,6 +774,12 @@
     ],
     "sectors": [
       "Space"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [
+      "China / PRC"
     ],
     "regulations": [
       "NIS2"
@@ -683,6 +806,13 @@
       "Defense",
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide",
+      "Western Europe"
+    ],
+    "actors": [
+      "China / PRC"
+    ],
     "regulations": [
       "NIS2"
     ],
@@ -708,6 +838,12 @@
       "Defense",
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [
+      "China / PRC"
+    ],
     "regulations": [
       "NIS2"
     ],
@@ -732,6 +868,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -756,6 +896,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -780,6 +924,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -804,6 +952,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -828,6 +980,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -852,6 +1008,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -876,6 +1036,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -902,6 +1066,12 @@
     "sectors": [
       "Public Admin"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
     "regulations": [
       "NIS2"
     ],
@@ -926,6 +1096,10 @@
     "sectors": [
       "Space"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -950,6 +1124,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -974,6 +1152,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1000,6 +1182,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1026,6 +1212,11 @@
     "sectors": [
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide",
+      "Baltics & Nordics"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1049,6 +1240,13 @@
     ],
     "sectors": [
       "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide",
+      "Eastern Flank"
+    ],
+    "actors": [
+      "Russia / Kremlin"
     ],
     "regulations": [
       "NIS2"
@@ -1075,6 +1273,10 @@
       "Defense",
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1100,6 +1302,10 @@
       "Defense",
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1125,6 +1331,11 @@
       "Defense",
       "Public Admin"
     ],
+    "theaters": [
+      "Eastern Flank",
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1150,6 +1361,11 @@
       "Defense",
       "Transport"
     ],
+    "theaters": [
+      "Eastern Flank",
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2",
       "CER"
@@ -1175,6 +1391,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1199,6 +1419,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1223,6 +1447,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1249,6 +1477,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1276,6 +1508,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2",
       "CER"
@@ -1303,6 +1539,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1329,6 +1569,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1355,6 +1599,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1381,6 +1629,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1405,6 +1657,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1431,6 +1687,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1457,6 +1717,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1483,6 +1747,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1509,6 +1777,10 @@
     "sectors": [
       "Defense"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1533,6 +1805,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1559,6 +1835,12 @@
     "sectors": [
       "Defense"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [
+      "Iran / IRGC"
+    ],
     "regulations": [
       "NIS2"
     ],
@@ -1583,6 +1865,10 @@
     "sectors": [
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2",
       "CER"
@@ -1608,6 +1894,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1634,6 +1924,10 @@
     "sectors": [
       "Public Admin"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1658,6 +1952,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1684,6 +1982,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2",
       "EU AI Act"
@@ -1709,6 +2011,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Western Europe"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2",
       "EU AI Act"
@@ -1734,6 +2040,10 @@
     "sectors": [
       "Transport"
     ],
+    "theaters": [
+      "Subsea & Maritime"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2",
       "CER"
@@ -1759,6 +2069,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1785,6 +2099,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1811,6 +2129,12 @@
     "sectors": [
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
     "regulations": [
       "NIS2"
     ],
@@ -1835,6 +2159,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1861,6 +2189,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1888,6 +2220,11 @@
       "Space",
       "Public Admin"
     ],
+    "theaters": [
+      "EU-Wide",
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1912,6 +2249,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1938,6 +2279,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1964,6 +2309,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -1990,6 +2339,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2016,6 +2369,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2041,6 +2398,10 @@
     "sectors": [
       "Defense"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "CER"
     ],
@@ -2065,6 +2426,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2089,6 +2454,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2113,6 +2482,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Western Europe"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2140,6 +2513,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2168,6 +2545,10 @@
       "Defense",
       "Public Admin"
     ],
+    "theaters": [
+      "Eastern Flank"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2192,6 +2573,11 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "Baltics & Nordics",
+      "Western Europe"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2216,6 +2602,10 @@
     "sectors": [
       "Space"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2240,6 +2630,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2263,6 +2657,15 @@
     ],
     "sectors": [
       "Defense"
+    ],
+    "theaters": [
+      "EU-Wide",
+      "Transatlantic / Global"
+    ],
+    "actors": [
+      "Russia / Kremlin",
+      "China / PRC",
+      "Iran / IRGC"
     ],
     "regulations": [
       "NIS2"
@@ -2288,6 +2691,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2312,6 +2719,10 @@
     "sectors": [
       "Public Admin"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2335,6 +2746,13 @@
     ],
     "sectors": [
       "Defense"
+    ],
+    "theaters": [
+      "Eastern Flank",
+      "Transatlantic / Global"
+    ],
+    "actors": [
+      "Russia / Kremlin"
     ],
     "regulations": [
       "NIS2"
@@ -2360,6 +2778,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2383,6 +2805,13 @@
     ],
     "sectors": [
       "Public Admin"
+    ],
+    "theaters": [
+      "Eastern Flank",
+      "Transatlantic / Global"
+    ],
+    "actors": [
+      "Russia / Kremlin"
     ],
     "regulations": [
       "NIS2"
@@ -2408,6 +2837,10 @@
     "sectors": [
       "Space"
     ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2432,6 +2865,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2455,6 +2892,13 @@
     ],
     "sectors": [
       "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide",
+      "Transatlantic / Global"
+    ],
+    "actors": [
+      "Russia / Kremlin"
     ],
     "regulations": [
       "NIS2"
@@ -2481,6 +2925,13 @@
       "Defense",
       "Public Admin"
     ],
+    "theaters": [
+      "Baltics & Nordics"
+    ],
+    "actors": [
+      "Russia / Kremlin",
+      "China / PRC"
+    ],
     "regulations": [
       "NIS2"
     ],
@@ -2505,6 +2956,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2529,6 +2984,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2553,6 +3012,10 @@
     "sectors": [
       "Digital"
     ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
     "regulations": [
       "NIS2"
     ],
@@ -2576,6 +3039,13 @@
     ],
     "sectors": [
       "Defense"
+    ],
+    "theaters": [
+      "Baltics & Nordics",
+      "Transatlantic / Global"
+    ],
+    "actors": [
+      "Russia / Kremlin"
     ],
     "regulations": [
       "NIS2"

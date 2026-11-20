@@ -131,6 +131,8 @@ An array of individual threat signals conforming to the following structure:
     "domain": "cyber_kev",
     "vectors": ["Cyber/KEV"],
     "sectors": ["Energy", "Digital"],
+    "theaters": ["EU-Wide", "Baltics & Nordics"],
+    "actors": ["Russia / Kremlin"],
     "regulations": ["NIS2"],
     "exposure": "HIGH",
     "cve_ids": ["CVE-2026-1234"],
@@ -143,9 +145,11 @@ An array of individual threat signals conforming to the following structure:
 - `source_tier`: `"Official"` | `"OSINT"` | `"Think Tank"` | `"CTI"`
 - `domain`: `"cyber_kev"` | `"hybrid_geo"` | `"defense_reg"`
 - `exposure`: `"HIGH"` | `"MODERATE"` | `"LOW"`
+- `theaters` (v1.1 Geopolitical Risk layer): 1–2 canonical operational theaters (`"EU-Wide"` | `"Baltics & Nordics"` | `"Eastern Flank"` | `"Western Europe"` | `"Southern Europe & Med"` | `"Subsea & Maritime"` | `"Transatlantic / Global"`).
+- `actors` (v1.1 Geopolitical Risk layer): Explicitly attributed state sponsors, intelligence services, proxies, or APT groups (`[]` when unattributed).
 
 ### 5.2 `data/meta.json`
-Telemetry summary and feed operational health:
+Telemetry summary, 7-day vs. 30-day escalation tempo (`tempo.by_sector` and `tempo.by_theater`), top attributed actors in the 30-day window (`top_actors_30d`), and feed operational health:
 ```json
 {
   "last_ingest_utc": "2026-11-19T07:00:00Z",
@@ -154,6 +158,34 @@ Telemetry summary and feed operational health:
   "nis2_exposure_alerts": 18,
   "hybrid_kinetic_count": 7,
   "briefs_count": 4,
+  "tempo": {
+    "by_sector": [
+      {
+        "name": "Energy",
+        "count_7d": 5,
+        "count_30d": 12,
+        "weekly_baseline_30d": 2.8,
+        "delta_pct": 79,
+        "status": "ELEVATED"
+      }
+    ],
+    "by_theater": [
+      {
+        "name": "Baltics & Nordics",
+        "count_7d": 4,
+        "count_30d": 10,
+        "weekly_baseline_30d": 2.33,
+        "delta_pct": 72,
+        "status": "ELEVATED"
+      }
+    ]
+  },
+  "top_actors_30d": [
+    {
+      "name": "Russia / Kremlin",
+      "count": 14
+    }
+  ],
   "feeds_status": [
     {
       "name": "CERT-EU Security Advisories",

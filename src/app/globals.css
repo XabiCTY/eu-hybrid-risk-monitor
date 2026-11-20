@@ -83,3 +83,104 @@ input[type="checkbox"].rule-check {
 input[type="checkbox"].rule-check:checked {
   background-color: var(--accent-oxford);
 }
+
+/* Executive Board Pack: native print layout (no third-party PDF tooling). */
+@page {
+  margin: 14mm;
+}
+
+@media print {
+  html,
+  body {
+    background: #ffffff !important;
+    color: #161616 !important;
+  }
+
+  .print-board-pack {
+    font-family: var(--font-sans);
+    font-size: 9pt;
+    line-height: 1.35;
+    color: #161616;
+  }
+
+  .print-board-pack .mono {
+    font-family: var(--font-mono);
+    font-size: 8pt;
+  }
+
+  .print-board-pack .pack-band {
+    border: 1px solid #1c2836;
+    padding: 6px 8px;
+    font-family: var(--font-mono);
+    font-size: 8.5pt;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    color: #1c2836;
+  }
+
+  .print-board-pack .pack-meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 8px;
+    border: 1px solid #d4d4d0;
+  }
+
+  .print-board-pack .pack-meta > div {
+    border: 1px solid #d4d4d0;
+    padding: 5px 8px;
+  }
+
+  .print-board-pack .pack-meta dt {
+    font-family: var(--font-mono);
+    font-size: 7pt;
+    letter-spacing: 0.06em;
+    color: #525252;
+  }
+
+  .print-board-pack .pack-meta dd {
+    margin: 2px 0 0;
+    font-family: var(--font-mono);
+    font-size: 8.5pt;
+  }
+
+  .print-board-pack .pack-note {
+    margin: 8px 0;
+    font-size: 8pt;
+    color: #525252;
+  }
+
+  .print-board-pack .pack-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .print-board-pack .pack-table th,
+  .print-board-pack .pack-table td {
+    border: 1px solid #d4d4d0;
+    padding: 4px 6px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .print-board-pack .pack-table th {
+    font-family: var(--font-mono);
+    font-size: 7pt;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #525252;
+  }
+
+  .print-board-pack .pack-table tr {
+    break-inside: avoid;
+  }
+
+  .print-board-pack .pack-table .alert {
+    color: #7a1c1c;
+    font-weight: 600;
+  }
+
+  .print-board-pack .pack-table .url {
+    word-break: break-all;
+    color: #525252;
+  }
+}

@@ -27,6 +27,17 @@ export type SourceTier = "Official" | "OSINT" | "Think Tank" | "CTI";
 
 export type EURegulation = "NIS2" | "CER" | "EU AI Act" | "EU Sanctions";
 
+export type Theater =
+  | "EU-Wide"
+  | "Baltics & Nordics"
+  | "Eastern Flank"
+  | "Western Europe"
+  | "Southern Europe & Med"
+  | "Subsea & Maritime"
+  | "Transatlantic / Global";
+
+export type TempoStatus = "ELEVATED" | "BASELINE" | "QUIET";
+
 export type EstimativeConfidence = "High" | "Moderate" | "Low";
 
 export interface Signal {
@@ -43,6 +54,8 @@ export interface Signal {
   domain: SignalDomain;
   vectors: ThreatVector[];
   sectors: NIS2Sector[];
+  theaters: Theater[];
+  actors: string[];
   regulations: EURegulation[];
   exposure: ExposureLevel;
   cve_ids: string[];
@@ -51,6 +64,20 @@ export interface Signal {
   /** FIRST EPSS percentile, 0..1. */
   epss_percentile: number | null;
   ransomware_known: boolean;
+}
+
+export interface TempoMetric<T extends string = string> {
+  name: T;
+  count_7d: number;
+  count_30d: number;
+  weekly_baseline_30d: number;
+  delta_pct: number;
+  status: TempoStatus;
+}
+
+export interface ActorCount {
+  name: string;
+  count: number;
 }
 
 export interface FeedStatus {
@@ -69,6 +96,11 @@ export interface MetaData {
   nis2_exposure_alerts: number;
   hybrid_kinetic_count: number;
   briefs_count: number;
+  tempo: {
+    by_sector: TempoMetric<NIS2Sector>[];
+    by_theater: TempoMetric<Theater>[];
+  };
+  top_actors_30d: ActorCount[];
   feeds_status: FeedStatus[];
 }
 

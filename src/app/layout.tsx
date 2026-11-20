@@ -41,13 +41,17 @@ export default function RootLayout({
         suppressHydrationWarning
         className="flex min-h-full flex-col bg-paper text-ink"
       >
-        <div className="bg-oxford px-4 py-2 text-center font-mono text-[11px] uppercase tracking-wider text-paper">
+        <div className="bg-oxford px-4 py-2 text-center font-mono text-[11px] uppercase tracking-wider text-paper print:hidden">
           TLP: CLEAR // OPEN-SOURCE INTELLIGENCE &amp; HYBRID THREAT ANALYSIS ON
           EUROPEAN SECURITY
         </div>
-        <Header />
+        <div className="print:hidden">
+          <Header />
+        </div>
         <div className="flex flex-1 flex-col">{children}</div>
-        <Footer />
+        <div className="print:hidden">
+          <Footer />
+        </div>
       </body>
     </html>
   );

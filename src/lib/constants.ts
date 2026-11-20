@@ -2,6 +2,7 @@ import type {
   ExposureLevel,
   NIS2Sector,
   SignalDomain,
+  Theater,
   ThreatVector,
 } from "./types";
 
@@ -28,6 +29,16 @@ export const THREAT_VECTORS: readonly ThreatVector[] = [
   "Sabotage",
   "Influence",
   "Reg/Sanc",
+];
+
+export const GEOPOLITICAL_THEATERS: readonly Theater[] = [
+  "EU-Wide",
+  "Baltics & Nordics",
+  "Eastern Flank",
+  "Western Europe",
+  "Southern Europe & Med",
+  "Subsea & Maritime",
+  "Transatlantic / Global",
 ];
 
 export const DOMAINS: readonly SignalDomain[] = [

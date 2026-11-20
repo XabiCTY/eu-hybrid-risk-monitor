@@ -127,6 +127,57 @@ export default function MethodologyPage() {
         <DefinitionTable head="EU framework" rows={REGULATIONS} />
         <DefinitionTable head="Exposure" rows={EXPOSURE} />
 
+        <H3>7-Day Escalation Tempo &amp; Explicit-Only Attribution Policy</H3>
+        <p className="mt-3">
+          <strong>7-Day Escalation Tempo Formula.</strong> For each NIS2 sector
+          and canonical operational theater (<em>EU-Wide</em>,{" "}
+          <em>Baltics &amp; Nordics</em>, <em>Eastern Flank</em>,{" "}
+          <em>Western Europe</em>, <em>Southern Europe &amp; Med</em>,{" "}
+          <em>Subsea &amp; Maritime</em>, and <em>Transatlantic / Global</em>),
+          the ingestion engine compares the 7-day signal count (
+          <code className="border border-rule bg-stone px-1 py-0.5 font-mono text-xs">
+            count_7d
+          </code>
+          ) against the rolling 30-day weekly baseline (
+          <code className="border border-rule bg-stone px-1 py-0.5 font-mono text-xs">
+            weekly_baseline_30d = count_30d / (30 / 7)
+          </code>
+          ), anchored deterministically to{" "}
+          <code className="border border-rule bg-stone px-1 py-0.5 font-mono text-xs">
+            last_ingest_utc
+          </code>
+          . A sector or theater is flagged{" "}
+          <code className="border border-alert bg-surface px-1 py-0.5 font-mono text-xs text-alert">
+            ELEVATED
+          </code>{" "}
+          only when both{" "}
+          <code className="border border-rule bg-stone px-1 py-0.5 font-mono text-xs">
+            count_7d &ge; 3
+          </code>{" "}
+          and{" "}
+          <code className="border border-rule bg-stone px-1 py-0.5 font-mono text-xs">
+            delta_pct &ge; +30%
+          </code>
+          , suppressing low-volume small-sample noise (such as 0 &rarr; 1 or 0
+          &rarr; 2 fluctuations).
+        </p>
+        <p className="mt-3">
+          <strong>Strict Explicit-Only Attribution Policy.</strong> State
+          sponsors, intelligence services, proxy groups, and APT intrusion sets
+          are recorded in a signal&apos;s{" "}
+          <code className="border border-rule bg-stone px-1 py-0.5 font-mono text-xs">
+            actors
+          </code>{" "}
+          field solely when explicitly named in the primary source or OSINT
+          text via strict word-boundary matching. The platform never infers,
+          extrapolates, or synthetically assigns attribution; unattributed
+          technical advisories and events remain cleanly unattributed (
+          <code className="border border-rule bg-stone px-1 py-0.5 font-mono text-xs">
+            []
+          </code>
+          ).
+        </p>
+
         <H3>FIRST TLP &amp; Estimative Confidence</H3>
         <p className="mt-3">
           <strong>TLP:CLEAR</strong> denotes information that may be disclosed

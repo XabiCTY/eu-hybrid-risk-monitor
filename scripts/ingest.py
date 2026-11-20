@@ -26,7 +26,13 @@ SCRIPTS_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPTS_DIR.parent
 sys.path.insert(0, str(SCRIPTS_DIR))
 
-from taxonomy import classify_signal, is_relevant_signal  # noqa: E402
+from taxonomy import (  # noqa: E402
+    CANONICAL_ACTORS,
+    CANONICAL_SECTORS,
+    CANONICAL_THEATERS,
+    classify_signal,
+    is_relevant_signal,
+)
 
 DATA_DIR = PROJECT_ROOT / "data"
 SIGNALS_PATH = DATA_DIR / "signals.json"
@@ -982,6 +988,8 @@ def main() -> int:
                 "domain": classification["domain"],
                 "vectors": classification["vectors"],
                 "sectors": classification["sectors"],
+                "theaters": classification["theaters"],
+                "actors": classification["actors"],
                 "regulations": classification["regulations"],
                 "exposure": classification["exposure"],
                 "cve_ids": cves,
@@ -1022,6 +1030,8 @@ def main() -> int:
             "domain": sig["domain"],
             "vectors": sig["vectors"],
             "sectors": sig["sectors"],
+            "theaters": sig["theaters"],
+            "actors": sig["actors"],
             "regulations": sig["regulations"],
             "exposure": sig["exposure"],
             "cve_ids": sig["cve_ids"],
@@ -1031,21 +1041,74 @@ def main() -> int:
         }
         final_signals.append(ordered_signal)
 
-    # 7. Compute 30-day rolling metrics (anchored to most recent signal date or today)
-    if final_signals:
-        latest_sig_date = datetime.date.fromisoformat(final_signals[0]["published_at"])
-    else:
-        latest_sig_date = reference_today
-    cutoff_30d = latest_sig_date - datetime.timedelta(days=30)
+    # 7. Compute 7-day & 30-day rolling metrics anchored strictly to last_ingest_utc
+    anchor_date = datetime.date.fromisoformat(last_ingest_utc[:10])
+    cutoff_7d = anchor_date - datetime.timedelta(days=7)
+    cutoff_30d = anchor_date - datetime.timedelta(days=30)
 
-    signals_total_30d = 0
+    signals_7d: List[Dict[str, Any]] = []
+    signals_30d: List[Dict[str, Any]] = []
     for sig in final_signals:
         try:
             d = datetime.date.fromisoformat(sig["published_at"])
-            if d >= cutoff_30d:
-                signals_total_30d += 1
+            if cutoff_30d <= d <= anchor_date:
+                signals_30d.append(sig)
+            if cutoff_7d <= d <= anchor_date:
+                signals_7d.append(sig)
         except ValueError:
             pass
+
+    signals_total_30d = len(signals_30d)
+
+    def _build_tempo_entry(name: str, count_7d: int, count_30d: int) -> Dict[str, Any]:
+        weekly_baseline_30d = round(count_30d / (30.0 / 7.0), 2)
+        if weekly_baseline_30d > 0:
+            delta_pct = int(round(((count_7d - weekly_baseline_30d) / weekly_baseline_30d) * 100))
+        else:
+            delta_pct = 0
+
+        if count_7d >= 3 and delta_pct >= 30:
+            status = "ELEVATED"
+        elif count_7d == 0:
+            status = "QUIET"
+        else:
+            status = "BASELINE"
+
+        return {
+            "name": name,
+            "count_7d": count_7d,
+            "count_30d": count_30d,
+            "weekly_baseline_30d": weekly_baseline_30d,
+            "delta_pct": delta_pct,
+            "status": status,
+        }
+
+    tempo_by_sector: List[Dict[str, Any]] = []
+    for sector in CANONICAL_SECTORS:
+        c7 = sum(1 for s in signals_7d if sector in s["sectors"])
+        c30 = sum(1 for s in signals_30d if sector in s["sectors"])
+        tempo_by_sector.append(_build_tempo_entry(sector, c7, c30))
+
+    tempo_by_theater: List[Dict[str, Any]] = []
+    for theater in CANONICAL_THEATERS:
+        c7 = sum(1 for s in signals_7d if theater in s["theaters"])
+        c30 = sum(1 for s in signals_30d if theater in s["theaters"])
+        tempo_by_theater.append(_build_tempo_entry(theater, c7, c30))
+
+    actor_counts_map: Dict[str, int] = {}
+    for sig in signals_30d:
+        for actor in sig["actors"]:
+            actor_counts_map[actor] = actor_counts_map.get(actor, 0) + 1
+
+    actor_order = {name: idx for idx, name in enumerate(CANONICAL_ACTORS)}
+    top_actors_30d: List[Dict[str, Any]] = [
+        {"name": actor, "count": count}
+        for actor, count in sorted(
+            actor_counts_map.items(),
+            key=lambda kv: (-kv[1], actor_order.get(kv[0], 999)),
+        )
+        if count > 0
+    ]
 
     nis2_exposure_alerts = sum(1 for s in final_signals if s["exposure"] == "HIGH")
     hybrid_kinetic_count = sum(
@@ -1062,6 +1125,11 @@ def main() -> int:
         "nis2_exposure_alerts": nis2_exposure_alerts,
         "hybrid_kinetic_count": hybrid_kinetic_count,
         "briefs_count": briefs_count,
+        "tempo": {
+            "by_sector": tempo_by_sector,
+            "by_theater": tempo_by_theater,
+        },
+        "top_actors_30d": top_actors_30d,
         "feeds_status": feeds_status,
     }
 

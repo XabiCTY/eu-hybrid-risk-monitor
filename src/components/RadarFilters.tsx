@@ -1,17 +1,39 @@
 "use client";
 
-import { EXPOSURE_LEVELS, NIS2_SECTORS, THREAT_VECTORS } from "@/lib/constants";
+import {
+  EXPOSURE_LEVELS,
+  GEOPOLITICAL_THEATERS,
+  NIS2_SECTORS,
+  THREAT_VECTORS,
+} from "@/lib/constants";
 import type { FilterState } from "@/lib/filter";
-import type { ExposureLevel, NIS2Sector, ThreatVector } from "@/lib/types";
+import type {
+  ExposureLevel,
+  NIS2Sector,
+  Theater,
+  ThreatVector,
+} from "@/lib/types";
+
+export interface ActorOption {
+  name: string;
+  count: number;
+}
 
 interface RadarFiltersProps {
   filters: FilterState;
   sectorCounts: Record<NIS2Sector, number>;
   vectorCounts: Record<ThreatVector, number>;
+  theaterCounts: Record<Theater, number>;
+  actorOptions: ActorOption[];
+  onTheater: (t: Theater | "all") => void;
+  onActor: (a: string) => void;
   onToggleSector: (s: NIS2Sector) => void;
   onToggleVector: (v: ThreatVector) => void;
   onExposure: (e: ExposureLevel | "all") => void;
 }
+
+const LEGEND =
+  "mb-2 border-b border-rule pb-2 font-mono text-[11px] uppercase tracking-wider text-muted";
 
 function CheckRow({
   label,
@@ -44,6 +66,10 @@ export default function RadarFilters({
   filters,
   sectorCounts,
   vectorCounts,
+  theaterCounts,
+  actorOptions,
+  onTheater,
+  onActor,
   onToggleSector,
   onToggleVector,
   onExposure,
@@ -53,9 +79,61 @@ export default function RadarFilters({
   return (
     <div className="space-y-6">
       <fieldset>
-        <legend className="mb-2 border-b border-rule pb-2 font-mono text-[11px] uppercase tracking-wider text-muted">
-          NIS2 Sector
-        </legend>
+        <legend className={LEGEND}>Operational Theater</legend>
+        <ul>
+          {GEOPOLITICAL_THEATERS.map((t) => {
+            const active = filters.theater === t;
+            return (
+              <li key={t}>
+                <button
+                  type="button"
+                  aria-pressed={active}
+                  onClick={() => onTheater(active ? "all" : t)}
+                  className={`flex w-full items-center justify-between border px-2 py-1.5 text-left text-sm ${
+                    active
+                      ? "border-oxford bg-oxford text-paper"
+                      : "border-transparent text-ink hover:border-rule"
+                  }`}
+                >
+                  <span>{t}</span>
+                  <span
+                    className={`font-mono text-xs ${active ? "text-paper" : "text-muted"}`}
+                  >
+                    {theaterCounts[t]}
+                  </span>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend className={LEGEND}>Attributed Actor</legend>
+        <label htmlFor="actor-filter" className="sr-only">
+          Attributed actor
+        </label>
+        <select
+          id="actor-filter"
+          value={filters.actor}
+          onChange={(e) => onActor(e.target.value)}
+          className="w-full border border-rule bg-surface px-2 py-2 font-mono text-xs text-ink"
+        >
+          <option value="all">All Actors / Unfiltered</option>
+          {actorOptions.map((a) => (
+            <option key={a.name} value={a.name}>
+              {a.name} ({a.count})
+            </option>
+          ))}
+        </select>
+        <p className="mt-2 text-xs leading-relaxed text-muted">
+          Only explicitly named actors are listed; unattributed signals are
+          never assigned an actor.
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend className={LEGEND}>NIS2 Sector</legend>
         <ul>
           {NIS2_SECTORS.map((s) => (
             <CheckRow
@@ -70,9 +148,7 @@ export default function RadarFilters({
       </fieldset>
 
       <fieldset>
-        <legend className="mb-2 border-b border-rule pb-2 font-mono text-[11px] uppercase tracking-wider text-muted">
-          Threat Vector
-        </legend>
+        <legend className={LEGEND}>Threat Vector</legend>
         <ul>
           {THREAT_VECTORS.map((v) => (
             <CheckRow
@@ -87,9 +163,7 @@ export default function RadarFilters({
       </fieldset>
 
       <fieldset>
-        <legend className="mb-2 border-b border-rule pb-2 font-mono text-[11px] uppercase tracking-wider text-muted">
-          Exposure Level
-        </legend>
+        <legend className={LEGEND}>Exposure Level</legend>
         <div className="flex flex-wrap gap-2">
           {exposureOptions.map((e) => {
             const active = filters.exposure === e;

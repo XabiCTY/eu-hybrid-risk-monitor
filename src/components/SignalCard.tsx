@@ -70,6 +70,27 @@ export default function SignalCard({ signal, onOpen }: SignalCardProps) {
           </span>
         ) : null}
 
+        <span className="mt-3 flex flex-wrap gap-1.5">
+          {signal.theaters.map((t) => (
+            <span
+              key={t}
+              className="border border-rule bg-stone px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-ink"
+            >
+              THEATER: {t}
+            </span>
+          ))}
+          {signal.actors.length > 0
+            ? signal.actors.map((a) => (
+                <span
+                  key={a}
+                  className="border border-oxford px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-oxford"
+                >
+                  ACTOR: {a}
+                </span>
+              ))
+            : null}
+        </span>
+
         <span className="mt-3 block font-mono text-[11px] uppercase tracking-wide text-muted">
           [{signal.regulations.join(" · ")} | {signal.sectors.join(" · ")} |{" "}
           {signal.vectors.join(" · ")} |{" "}

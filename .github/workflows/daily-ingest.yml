@@ -48,7 +48,7 @@ jobs:
               print('Error: data/meta.json must be a dictionary', file=sys.stderr)
               sys.exit(1)
 
-          required_keys = ['last_ingest_utc', 'signals_total_30d', 'feeds_status']
+          required_keys = ['last_ingest_utc', 'signals_total_30d', 'tempo', 'top_actors_30d', 'feeds_status']
           missing = [k for k in required_keys if k not in meta]
           if missing:
               print(f'Error: data/meta.json missing required keys: {missing}', file=sys.stderr)

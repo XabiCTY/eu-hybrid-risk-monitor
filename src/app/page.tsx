@@ -9,13 +9,11 @@ export default function Home() {
 
   return (
     <>
-      <SignalBar meta={meta} />
-      <main className="mx-auto w-full max-w-[1440px] flex-1 px-4 py-8 sm:px-6 lg:px-8">
-        <RadarWorkspace
-          signals={signals}
-          briefs={briefs}
-          anchorUtc={meta.last_ingest_utc}
-        />
+      <div className="print:hidden">
+        <SignalBar meta={meta} />
+      </div>
+      <main className="mx-auto w-full max-w-[1440px] flex-1 px-4 py-8 sm:px-6 lg:px-8 print:p-0">
+        <RadarWorkspace signals={signals} briefs={briefs} meta={meta} />
       </main>
     </>
   );
