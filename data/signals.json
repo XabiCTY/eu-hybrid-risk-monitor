@@ -1,5 +1,29 @@
 [
   {
+    "id": "SIG-20261120-001",
+    "published_at": "2026-11-20",
+    "title": "NCSC-2026-0510 [1.00] [H/H] Kwetsbaarheden verholpen in VMware-producten",
+    "summary": "VMware heeft kwetsbaarheden verholpen in VMware vCenter Directory Service, VMware Telco Cloud Platform, VMware SDDC Manager en VMware Tools voor Windows. De kwetsbaarheden betreffen meerdere VMware-producten en...",
+    "source_name": "NCSC-NL",
+    "source_tier": "Official",
+    "source_url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0510",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
     "id": "SIG-20261119-001",
     "published_at": "2026-11-19",
     "title": "NCSC-2026-0508 [1.00] [M/H] Kwetsbaarheden verholpen in F5 BIG-IP",
@@ -838,30 +862,6 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261118-016",
-    "published_at": "2026-11-18",
-    "title": "NCSC-2026-0503 [1.00] [M/H] Kwetsbaarheden verholpen in Oracle MySQL",
-    "summary": "Oracle heeft meerdere kwetsbaarheden verholpen in MySQL Server en MySQL Cluster. Meerdere van de kwetsbaarheden kunnen door ongeauthenticeerde of hooggeprivilegieerde aanvallers worden misbruikt om ongeautoriseerde...",
-    "source_name": "NCSC-NL",
-    "source_tier": "Official",
-    "source_url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0503",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
     "id": "SIG-20261117-001",
     "published_at": "2026-11-17",
     "title": "CVE-2026-115731: Perforce Puppet Enterprise — Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
@@ -1672,11 +1672,11 @@
   {
     "id": "SIG-20261103-002",
     "published_at": "2026-11-03",
-    "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
-    "summary": "The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience.",
+    "title": "Artificial intelligence and cyber intrusion",
+    "summary": "An NCSC assessment that examines current AI-enabled threat trends and projections of the threat landscape to 2028.",
     "source_name": "NCSC-UK",
     "source_tier": "Official",
-    "source_url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+    "source_url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
     "domain": "cyber_kev",
     "vectors": [
       "Cyber/KEV"
@@ -1697,11 +1697,11 @@
   {
     "id": "SIG-20261103-003",
     "published_at": "2026-11-03",
-    "title": "Artificial intelligence and cyber intrusion",
-    "summary": "An NCSC assessment that examines current AI-enabled threat trends and projections of the threat landscape to 2028.",
+    "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
+    "summary": "The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience.",
     "source_name": "NCSC-UK",
     "source_tier": "Official",
-    "source_url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
+    "source_url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
     "domain": "cyber_kev",
     "vectors": [
       "Cyber/KEV"
