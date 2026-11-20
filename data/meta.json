@@ -1,0 +1,114 @@
+{
+  "last_ingest_utc": "2026-11-19T23:07:11Z",
+  "last_ingest_cet": "2026-11-20 00:07 CET",
+  "signals_total_30d": 87,
+  "nis2_exposure_alerts": 7,
+  "hybrid_kinetic_count": 30,
+  "briefs_count": 0,
+  "feeds_status": [
+    {
+      "name": "CISA KEV Catalog",
+      "tier": "Official",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "status": "OK",
+      "items_ingested": 28,
+      "error": null
+    },
+    {
+      "name": "CERT-EU",
+      "tier": "Official",
+      "url": "https://cert.europa.eu/publications/security-advisories-rss",
+      "status": "OK",
+      "items_ingested": 10,
+      "error": null
+    },
+    {
+      "name": "CERT-FR / ANSSI",
+      "tier": "Official",
+      "url": "https://www.cert.ssi.gouv.fr/avis/feed/",
+      "status": "OK",
+      "items_ingested": 8,
+      "error": null
+    },
+    {
+      "name": "NCSC-NL",
+      "tier": "Official",
+      "url": "https://advisories.ncsc.nl/rss/advisories",
+      "status": "OK",
+      "items_ingested": 8,
+      "error": null
+    },
+    {
+      "name": "NCSC-UK",
+      "tier": "Official",
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "status": "OK",
+      "items_ingested": 6,
+      "error": null
+    },
+    {
+      "name": "EUvsDisinfo",
+      "tier": "Official",
+      "url": "https://euvsdisinfo.eu/feed/",
+      "status": "OK",
+      "items_ingested": 5,
+      "error": null
+    },
+    {
+      "name": "EUISS",
+      "tier": "Official",
+      "url": "https://www.iss.europa.eu/rss.xml",
+      "status": "OK",
+      "items_ingested": 6,
+      "error": null
+    },
+    {
+      "name": "CEPA",
+      "tier": "Think Tank",
+      "url": "https://cepa.org/feed/",
+      "status": "OK",
+      "items_ingested": 6,
+      "error": null
+    },
+    {
+      "name": "Bellingcat",
+      "tier": "OSINT",
+      "url": "https://www.bellingcat.com/feed/",
+      "status": "OK",
+      "items_ingested": 4,
+      "error": null
+    },
+    {
+      "name": "DFRLab",
+      "tier": "OSINT",
+      "url": "https://dfrlab.org/feed/",
+      "status": "OK",
+      "items_ingested": 3,
+      "error": null
+    },
+    {
+      "name": "ENISA",
+      "tier": "Official",
+      "url": "https://www.enisa.europa.eu/news",
+      "status": "OK",
+      "items_ingested": 6,
+      "error": null
+    },
+    {
+      "name": "EEAS",
+      "tier": "Official",
+      "url": "https://www.eeas.europa.eu/eeas/press-material_en",
+      "status": "OK",
+      "items_ingested": 8,
+      "error": null
+    },
+    {
+      "name": "Hybrid CoE",
+      "tier": "Official",
+      "url": "https://www.hybridcoe.fi/news/",
+      "status": "OK",
+      "items_ingested": 6,
+      "error": null
+    }
+  ]
+}

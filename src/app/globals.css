@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* Editorial palette: SPEC.md section 2.1 / .agent/rules/editorial-design.md */
+:root {
+  --bg-paper: #faf9f6;
+  --bg-surface: #ffffff;
+  --bg-stone: #f4f4f1;
+  --border-rule: #d4d4d0;
+  --ink-primary: #161616;
+  --ink-muted: #525252;
+  --accent-oxford: #1c2836;
+  --accent-alert: #7a1c1c;
+}
+
+@theme inline {
+  --color-paper: var(--bg-paper);
+  --color-surface: var(--bg-surface);
+  --color-stone: var(--bg-stone);
+  --color-rule: var(--border-rule);
+  --color-ink: var(--ink-primary);
+  --color-muted: var(--ink-muted);
+  --color-oxford: var(--accent-oxford);
+  --color-alert: var(--accent-alert);
+
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI",
+    sans-serif;
+  --font-serif: var(--font-newsreader), "Source Serif Pro", Georgia, serif;
+  --font-mono: var(--font-jetbrains), Consolas, ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  * {
+    border-color: var(--border-rule);
+  }
+
+  body {
+    background-color: var(--bg-paper);
+    color: var(--ink-primary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+/* Hard bans: no rounded corners, no shadows, no gradients. */
+*,
+*::before,
+*::after {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  background-image: none;
+}
+
+/* Keyboard focus: Oxford outline (web-engineering rule). */
+:focus-visible {
+  outline: 2px solid var(--accent-oxford) !important;
+  outline-offset: 1px;
+}
+
+/* Square checkbox: flat, no native rounding. */
+input[type="checkbox"].rule-check {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  flex: none;
+  margin: 0;
+  padding: 2px;
+  border: 1px solid var(--ink-primary);
+  background-color: var(--bg-surface);
+  background-clip: content-box;
+  cursor: pointer;
+}
+
+input[type="checkbox"].rule-check:checked {
+  background-color: var(--accent-oxford);
+}
