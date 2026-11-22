@@ -1,7 +1,7 @@
 {
-  "last_ingest_utc": "2026-11-21T15:05:23Z",
-  "last_ingest_cet": "2026-11-21 16:05 CET",
-  "signals_total_30d": 80,
+  "last_ingest_utc": "2026-11-22T15:02:27Z",
+  "last_ingest_cet": "2026-11-22 16:02 CET",
+  "signals_total_30d": 79,
   "nis2_exposure_alerts": 8,
   "hybrid_kinetic_count": 26,
   "briefs_count": 0,
@@ -34,9 +34,9 @@
       {
         "name": "Digital",
         "count_7d": 29,
-        "count_30d": 56,
-        "weekly_baseline_30d": 13.07,
-        "delta_pct": 122,
+        "count_30d": 55,
+        "weekly_baseline_30d": 12.83,
+        "delta_pct": 126,
         "status": "ELEVATED"
       },
       {
@@ -60,9 +60,9 @@
       {
         "name": "EU-Wide",
         "count_7d": 31,
-        "count_30d": 44,
-        "weekly_baseline_30d": 10.27,
-        "delta_pct": 202,
+        "count_30d": 43,
+        "weekly_baseline_30d": 10.03,
+        "delta_pct": 209,
         "status": "ELEVATED"
       },
       {
@@ -143,7 +143,7 @@
       "tier": "Official",
       "url": "https://cert.europa.eu/publications/security-advisories-rss",
       "status": "OK",
-      "items_ingested": 10,
+      "items_ingested": 9,
       "error": null
     },
     {
@@ -215,7 +215,7 @@
       "tier": "Official",
       "url": "https://www.enisa.europa.eu/news",
       "status": "OK",
-      "items_ingested": 6,
+      "items_ingested": 5,
       "error": null
     },
     {

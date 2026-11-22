@@ -26,7 +26,7 @@
       "CVE-2026-129448"
     ],
     "epss_score": 0.0546,
-    "epss_percentile": 0.9293,
+    "epss_percentile": 0.9294,
     "ransomware_known": false
   },
   {
@@ -55,8 +55,8 @@
     "cve_ids": [
       "CVE-2026-123890"
     ],
-    "epss_score": 0.0299,
-    "epss_percentile": 0.8763,
+    "epss_score": 0.0353,
+    "epss_percentile": 0.8953,
     "ransomware_known": false
   },
   {
@@ -86,7 +86,7 @@
       "CVE-2026-76466"
     ],
     "epss_score": 0.0219,
-    "epss_percentile": 0.8286,
+    "epss_percentile": 0.8287,
     "ransomware_known": false
   },
   {
@@ -116,7 +116,7 @@
       "CVE-2025-42884"
     ],
     "epss_score": 0.0071,
-    "epss_percentile": 0.5458,
+    "epss_percentile": 0.546,
     "ransomware_known": false
   },
   {
@@ -904,7 +904,7 @@
       "CVE-2026-114938"
     ],
     "epss_score": 0.4564,
-    "epss_percentile": 0.9882,
+    "epss_percentile": 0.9883,
     "ransomware_known": false
   },
   {
@@ -933,8 +933,8 @@
     "cve_ids": [
       "CVE-2026-90817"
     ],
-    "epss_score": 0.334,
-    "epss_percentile": 0.9841,
+    "epss_score": 0.3433,
+    "epss_percentile": 0.9845,
     "ransomware_known": false
   },
   {
@@ -994,7 +994,7 @@
       "CVE-2024-10441"
     ],
     "epss_score": 0.0313,
-    "epss_percentile": 0.8818,
+    "epss_percentile": 0.8819,
     "ransomware_known": false
   },
   {
@@ -1257,7 +1257,7 @@
       "CVE-2026-115731"
     ],
     "epss_score": 0.0123,
-    "epss_percentile": 0.6968,
+    "epss_percentile": 0.697,
     "ransomware_known": false
   },
   {
@@ -1345,7 +1345,7 @@
       "CVE-2026-114713"
     ],
     "epss_score": 0.0115,
-    "epss_percentile": 0.6764,
+    "epss_percentile": 0.6765,
     "ransomware_known": false
   },
   {
@@ -1527,6 +1527,36 @@
   {
     "id": "SIG-20261110-003",
     "published_at": "2026-11-10",
+    "title": "CVE-2026-125350: Google Chromium — Google Chromium Use-After-Free Vulnerability",
+    "summary": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could...",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-125350"
+    ],
+    "epss_score": 0.068,
+    "epss_percentile": 0.9416,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261110-004",
+    "published_at": "2026-11-10",
     "title": "CVE-2026-124194: Microsoft Office — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
     "summary": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
     "source_name": "CISA KEV",
@@ -1553,37 +1583,7 @@
       "CVE-2026-124194"
     ],
     "epss_score": 0.0194,
-    "epss_percentile": 0.8065,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261110-004",
-    "published_at": "2026-11-10",
-    "title": "CVE-2026-125350: Google Chromium — Google Chromium Use-After-Free Vulnerability",
-    "summary": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could...",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [
-      "CVE-2026-125350"
-    ],
-    "epss_score": 0.0189,
-    "epss_percentile": 0.8008,
+    "epss_percentile": 0.8066,
     "ransomware_known": false
   },
   {
@@ -1613,7 +1613,7 @@
       "CVE-2026-20320"
     ],
     "epss_score": 0.0168,
-    "epss_percentile": 0.7754,
+    "epss_percentile": 0.7756,
     "ransomware_known": false
   },
   {
@@ -1643,7 +1643,7 @@
       "CVE-2026-111793"
     ],
     "epss_score": 0.0117,
-    "epss_percentile": 0.6823,
+    "epss_percentile": 0.6824,
     "ransomware_known": false
   },
   {
@@ -1700,8 +1700,8 @@
     "cve_ids": [
       "CVE-2026-123158"
     ],
-    "epss_score": 0.8768,
-    "epss_percentile": 0.9976,
+    "epss_score": 0.9554,
+    "epss_percentile": 0.9987,
     "ransomware_known": false
   },
   {
@@ -1791,7 +1791,7 @@
       "CVE-2026-123218"
     ],
     "epss_score": 0.0101,
-    "epss_percentile": 0.6407,
+    "epss_percentile": 0.6409,
     "ransomware_known": false
   },
   {
@@ -1910,7 +1910,7 @@
       "CVE-2024-27834"
     ],
     "epss_score": 0.0156,
-    "epss_percentile": 0.7583,
+    "epss_percentile": 0.7585,
     "ransomware_known": false
   },
   {
@@ -1968,7 +1968,7 @@
       "CVE-2026-119977"
     ],
     "epss_score": 0.0805,
-    "epss_percentile": 0.9492,
+    "epss_percentile": 0.9493,
     "ransomware_known": false
   },
   {
@@ -2085,7 +2085,7 @@
       "CVE-2026-118527"
     ],
     "epss_score": 0.0099,
-    "epss_percentile": 0.6339,
+    "epss_percentile": 0.6341,
     "ransomware_known": false
   },
   {
@@ -2115,7 +2115,7 @@
       "CVE-2026-111357"
     ],
     "epss_score": 0.008,
-    "epss_percentile": 0.5762,
+    "epss_percentile": 0.5764,
     "ransomware_known": false
   },
   {
@@ -2851,61 +2851,5 @@
     "epss_score": null,
     "epss_percentile": null,
     "ransomware_known": false
-  },
-  {
-    "id": "SIG-20260922-001",
-    "published_at": "2026-09-22",
-    "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
-    "summary": "On 22 September 2026, F5 published an advisory addressing a critical vulnerability affecting its BIG-IP APM product. The vendor confirmed active exploitation in the wild. CERT-EU recommends taking appropriate actions...",
-    "source_name": "CERT-EU",
-    "source_tier": "Official",
-    "source_url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20260922-002",
-    "published_at": "2026-09-22",
-    "title": "Exploring the evolution of the cyber threat landscape: How dependencies weaken our digital resilience",
-    "summary": "The cyber threat landscape of the European Union is still shaped by a combination of recurrent threats. Key highlights include: Ransomware remains the most short-term impactful type of incident. Geopolitical...",
-    "source_name": "ENISA",
-    "source_tier": "Official",
-    "source_url": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": true
   }
 ]
