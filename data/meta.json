@@ -1,26 +1,26 @@
 {
-  "last_ingest_utc": "2026-11-22T15:02:27Z",
-  "last_ingest_cet": "2026-11-22 16:02 CET",
-  "signals_total_30d": 79,
-  "nis2_exposure_alerts": 8,
-  "hybrid_kinetic_count": 26,
+  "last_ingest_utc": "2026-11-23T18:58:17Z",
+  "last_ingest_cet": "2026-11-23 19:58 CET",
+  "signals_total_30d": 70,
+  "nis2_exposure_alerts": 10,
+  "hybrid_kinetic_count": 21,
   "briefs_count": 0,
   "tempo": {
     "by_sector": [
       {
         "name": "Energy",
-        "count_7d": 4,
-        "count_30d": 4,
-        "weekly_baseline_30d": 0.93,
-        "delta_pct": 330,
-        "status": "ELEVATED"
+        "count_7d": 2,
+        "count_30d": 2,
+        "weekly_baseline_30d": 0.47,
+        "delta_pct": 326,
+        "status": "BASELINE"
       },
       {
         "name": "Defense",
         "count_7d": 7,
-        "count_30d": 9,
-        "weekly_baseline_30d": 2.1,
-        "delta_pct": 233,
+        "count_30d": 8,
+        "weekly_baseline_30d": 1.87,
+        "delta_pct": 274,
         "status": "ELEVATED"
       },
       {
@@ -34,9 +34,9 @@
       {
         "name": "Digital",
         "count_7d": 29,
-        "count_30d": 55,
-        "weekly_baseline_30d": 12.83,
-        "delta_pct": 126,
+        "count_30d": 54,
+        "weekly_baseline_30d": 12.6,
+        "delta_pct": 130,
         "status": "ELEVATED"
       },
       {
@@ -49,20 +49,20 @@
       },
       {
         "name": "Public Admin",
-        "count_7d": 11,
-        "count_30d": 16,
-        "weekly_baseline_30d": 3.73,
-        "delta_pct": 195,
+        "count_7d": 7,
+        "count_30d": 10,
+        "weekly_baseline_30d": 2.33,
+        "delta_pct": 200,
         "status": "ELEVATED"
       }
     ],
     "by_theater": [
       {
         "name": "EU-Wide",
-        "count_7d": 31,
-        "count_30d": 43,
-        "weekly_baseline_30d": 10.03,
-        "delta_pct": 209,
+        "count_7d": 27,
+        "count_30d": 35,
+        "weekly_baseline_30d": 8.17,
+        "delta_pct": 230,
         "status": "ELEVATED"
       },
       {
@@ -75,26 +75,26 @@
       },
       {
         "name": "Eastern Flank",
-        "count_7d": 3,
-        "count_30d": 4,
-        "weekly_baseline_30d": 0.93,
-        "delta_pct": 223,
-        "status": "ELEVATED"
-      },
-      {
-        "name": "Western Europe",
-        "count_7d": 3,
-        "count_30d": 4,
-        "weekly_baseline_30d": 0.93,
-        "delta_pct": 223,
-        "status": "ELEVATED"
-      },
-      {
-        "name": "Southern Europe & Med",
         "count_7d": 2,
         "count_30d": 2,
         "weekly_baseline_30d": 0.47,
         "delta_pct": 326,
+        "status": "BASELINE"
+      },
+      {
+        "name": "Western Europe",
+        "count_7d": 1,
+        "count_30d": 2,
+        "weekly_baseline_30d": 0.47,
+        "delta_pct": 113,
+        "status": "BASELINE"
+      },
+      {
+        "name": "Southern Europe & Med",
+        "count_7d": 1,
+        "count_30d": 1,
+        "weekly_baseline_30d": 0.23,
+        "delta_pct": 335,
         "status": "BASELINE"
       },
       {
@@ -117,12 +117,12 @@
   },
   "top_actors_30d": [
     {
-      "name": "Russia / Kremlin",
-      "count": 6
-    },
-    {
       "name": "China / PRC",
       "count": 4
+    },
+    {
+      "name": "Russia / Kremlin",
+      "count": 2
     },
     {
       "name": "Iran / IRGC",
@@ -174,9 +174,9 @@
       "name": "EUvsDisinfo",
       "tier": "Official",
       "url": "https://euvsdisinfo.eu/feed/",
-      "status": "OK",
-      "items_ingested": 5,
-      "error": null
+      "status": "ERROR",
+      "items_ingested": 0,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://euvsdisinfo.eu/feed/"
     },
     {
       "name": "EUISS",
@@ -223,7 +223,7 @@
       "tier": "Official",
       "url": "https://www.eeas.europa.eu/eeas/press-material_en",
       "status": "OK",
-      "items_ingested": 8,
+      "items_ingested": 4,
       "error": null
     },
     {
