@@ -1,9 +1,9 @@
 {
-  "last_ingest_utc": "2026-11-23T18:58:17Z",
-  "last_ingest_cet": "2026-11-23 19:58 CET",
-  "signals_total_30d": 70,
-  "nis2_exposure_alerts": 10,
-  "hybrid_kinetic_count": 21,
+  "last_ingest_utc": "2026-11-24T18:37:29Z",
+  "last_ingest_cet": "2026-11-24 19:37 CET",
+  "signals_total_30d": 78,
+  "nis2_exposure_alerts": 8,
+  "hybrid_kinetic_count": 28,
   "briefs_count": 0,
   "tempo": {
     "by_sector": [
@@ -17,52 +17,52 @@
       },
       {
         "name": "Defense",
-        "count_7d": 7,
-        "count_30d": 8,
-        "weekly_baseline_30d": 1.87,
-        "delta_pct": 274,
+        "count_7d": 10,
+        "count_30d": 11,
+        "weekly_baseline_30d": 2.57,
+        "delta_pct": 289,
         "status": "ELEVATED"
       },
       {
         "name": "Transport",
-        "count_7d": 0,
-        "count_30d": 1,
-        "weekly_baseline_30d": 0.23,
-        "delta_pct": -100,
-        "status": "QUIET"
+        "count_7d": 1,
+        "count_30d": 2,
+        "weekly_baseline_30d": 0.47,
+        "delta_pct": 113,
+        "status": "BASELINE"
       },
       {
         "name": "Digital",
-        "count_7d": 29,
-        "count_30d": 54,
-        "weekly_baseline_30d": 12.6,
-        "delta_pct": 130,
+        "count_7d": 36,
+        "count_30d": 55,
+        "weekly_baseline_30d": 12.83,
+        "delta_pct": 181,
         "status": "ELEVATED"
       },
       {
         "name": "Space",
-        "count_7d": 2,
-        "count_30d": 3,
-        "weekly_baseline_30d": 0.7,
-        "delta_pct": 186,
+        "count_7d": 1,
+        "count_30d": 2,
+        "weekly_baseline_30d": 0.47,
+        "delta_pct": 113,
         "status": "BASELINE"
       },
       {
         "name": "Public Admin",
-        "count_7d": 7,
-        "count_30d": 10,
-        "weekly_baseline_30d": 2.33,
-        "delta_pct": 200,
+        "count_7d": 11,
+        "count_30d": 16,
+        "weekly_baseline_30d": 3.73,
+        "delta_pct": 195,
         "status": "ELEVATED"
       }
     ],
     "by_theater": [
       {
         "name": "EU-Wide",
-        "count_7d": 27,
-        "count_30d": 35,
-        "weekly_baseline_30d": 8.17,
-        "delta_pct": 230,
+        "count_7d": 33,
+        "count_30d": 42,
+        "weekly_baseline_30d": 9.8,
+        "delta_pct": 237,
         "status": "ELEVATED"
       },
       {
@@ -75,19 +75,19 @@
       },
       {
         "name": "Eastern Flank",
-        "count_7d": 2,
-        "count_30d": 2,
-        "weekly_baseline_30d": 0.47,
-        "delta_pct": 326,
-        "status": "BASELINE"
+        "count_7d": 4,
+        "count_30d": 5,
+        "weekly_baseline_30d": 1.17,
+        "delta_pct": 242,
+        "status": "ELEVATED"
       },
       {
         "name": "Western Europe",
-        "count_7d": 1,
-        "count_30d": 2,
-        "weekly_baseline_30d": 0.47,
-        "delta_pct": 113,
-        "status": "BASELINE"
+        "count_7d": 0,
+        "count_30d": 1,
+        "weekly_baseline_30d": 0.23,
+        "delta_pct": -100,
+        "status": "QUIET"
       },
       {
         "name": "Southern Europe & Med",
@@ -99,30 +99,30 @@
       },
       {
         "name": "Subsea & Maritime",
-        "count_7d": 1,
-        "count_30d": 2,
-        "weekly_baseline_30d": 0.47,
-        "delta_pct": 113,
+        "count_7d": 2,
+        "count_30d": 3,
+        "weekly_baseline_30d": 0.7,
+        "delta_pct": 186,
         "status": "BASELINE"
       },
       {
         "name": "Transatlantic / Global",
-        "count_7d": 11,
+        "count_7d": 16,
         "count_30d": 33,
         "weekly_baseline_30d": 7.7,
-        "delta_pct": 43,
+        "delta_pct": 108,
         "status": "ELEVATED"
       }
     ]
   },
   "top_actors_30d": [
     {
-      "name": "China / PRC",
-      "count": 4
+      "name": "Russia / Kremlin",
+      "count": 6
     },
     {
-      "name": "Russia / Kremlin",
-      "count": 2
+      "name": "China / PRC",
+      "count": 5
     },
     {
       "name": "Iran / IRGC",
@@ -174,16 +174,16 @@
       "name": "EUvsDisinfo",
       "tier": "Official",
       "url": "https://euvsdisinfo.eu/feed/",
-      "status": "ERROR",
-      "items_ingested": 0,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://euvsdisinfo.eu/feed/"
+      "status": "OK",
+      "items_ingested": 5,
+      "error": null
     },
     {
       "name": "EUISS",
       "tier": "Official",
       "url": "https://www.iss.europa.eu/rss.xml",
       "status": "OK",
-      "items_ingested": 1,
+      "items_ingested": 3,
       "error": null
     },
     {
@@ -223,7 +223,7 @@
       "tier": "Official",
       "url": "https://www.eeas.europa.eu/eeas/press-material_en",
       "status": "OK",
-      "items_ingested": 4,
+      "items_ingested": 6,
       "error": null
     },
     {
