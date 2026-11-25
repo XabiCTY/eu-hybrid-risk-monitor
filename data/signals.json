@@ -1,5 +1,716 @@
 [
   {
+    "id": "SIG-20261125-001",
+    "published_at": "2026-11-25",
+    "title": "CVE-2026-103406: Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router — Hewlett Packard Enterprise (HPE) Juniper...",
+    "summary": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a...",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-103406"
+    ],
+    "epss_score": 0.0086,
+    "epss_percentile": 0.5602,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-002",
+    "published_at": "2026-11-25",
+    "title": "Vulnérabilité dans Palo Alto Networks PAN-OS (25 novembre 2026)",
+    "summary": "Une vulnérabilité a été découverte dans Palo Alto Networks PAN-OS. Elle permet à un attaquant de provoquer une élévation de privilèges. Palo Alto Networks indique que la vulnérabilité CVE-2026-43600 est activement...",
+    "source_name": "CERT-FR / ANSSI",
+    "source_tier": "Official",
+    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1621/",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-43600"
+    ],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-003",
+    "published_at": "2026-11-25",
+    "title": "An Icelandic Home Guard to Help Secure the North Atlantic",
+    "summary": "Remote but vital, Iceland needs to play its part in the West’s defense of the High North. A volunteer home guard could be the answer.",
+    "source_name": "CEPA",
+    "source_tier": "Think Tank",
+    "source_url": "https://cepa.org/article/an-icelandic-home-guard-to-help-secure-the-north-atlantic/",
+    "domain": "hybrid_geo",
+    "vectors": [
+      "Espionage/Proxies"
+    ],
+    "sectors": [
+      "Defense"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-004",
+    "published_at": "2026-11-25",
+    "title": "Murder Is Love, Says Putin Preacher",
+    "summary": "Russia continues to embrace staggeringly extreme words and ideas that are anathema to 21st century civilization.",
+    "source_name": "CEPA",
+    "source_tier": "Think Tank",
+    "source_url": "https://cepa.org/article/murder-is-love-says-putin-preacher/",
+    "domain": "hybrid_geo",
+    "vectors": [
+      "Espionage/Proxies"
+    ],
+    "sectors": [
+      "Defense",
+      "Public Admin"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-005",
+    "published_at": "2026-11-25",
+    "title": "US Plans to Cut Off Iran’s Caspian Lifeline",
+    "summary": "Washington’s mission to cut off alternative routes for Iranian trade in the Caspian basin is turning the spotlight on Tehran’s ties with Moscow.",
+    "source_name": "CEPA",
+    "source_tier": "Think Tank",
+    "source_url": "https://cepa.org/article/us-plans-to-cut-off-irans-caspian-lifeline/",
+    "domain": "hybrid_geo",
+    "vectors": [
+      "Espionage/Proxies"
+    ],
+    "sectors": [
+      "Defense",
+      "Public Admin"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [
+      "Russia / Kremlin",
+      "Iran / IRGC"
+    ],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-006",
+    "published_at": "2026-11-25",
+    "title": "AI’s Back Door to Finance",
+    "summary": "Europe is abandoning plans to open up financial data just as artificial intelligence arrives. The biggest winners could be American tech giants.",
+    "source_name": "CEPA",
+    "source_tier": "Think Tank",
+    "source_url": "https://cepa.org/article/ais-back-door-to-finance/",
+    "domain": "hybrid_geo",
+    "vectors": [
+      "Espionage/Proxies"
+    ],
+    "sectors": [
+      "Space"
+    ],
+    "theaters": [
+      "EU-Wide",
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2",
+      "EU AI Act"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-007",
+    "published_at": "2026-11-25",
+    "title": "Russia Launching Near-Daily Attacks Across Europe",
+    "summary": "The Kremlin’s assaults on Europe are becoming part of everyday life. There is little sign that the continent knows how to respond.",
+    "source_name": "CEPA",
+    "source_tier": "Think Tank",
+    "source_url": "https://cepa.org/article/russia-launching-near-daily-attacks-across-europe/",
+    "domain": "hybrid_geo",
+    "vectors": [
+      "Espionage/Proxies"
+    ],
+    "sectors": [
+      "Defense",
+      "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-008",
+    "published_at": "2026-11-25",
+    "title": "Russia’s war of aggression against Ukraine: EU restricts trade with 15 entities linked to Russia’s military and industrial complex",
+    "summary": "In line with the EU’s determination to further increase pressure on Russia so that it stops its brutal war of aggression and engages in meaningful negotiations towards peace, today the Council decided to add 15...",
+    "source_name": "EEAS",
+    "source_tier": "Official",
+    "source_url": "https://www.eeas.europa.eu/delegations/ukraine/russias-war-aggression-against-ukraine-eu-restricts-trade-15-entities-linked-russias-military-and_en",
+    "domain": "defense_reg",
+    "vectors": [
+      "Reg/Sanc"
+    ],
+    "sectors": [
+      "Defense"
+    ],
+    "theaters": [
+      "EU-Wide",
+      "Eastern Flank"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-009",
+    "published_at": "2026-11-25",
+    "title": "EU and Indonesia “learn from each other” through practical cooperation to strengthen cyber crisis communication and coordination",
+    "summary": "Jakarta, 25 November 2026 — Officials and experts from Indonesia and the European Union (EU) took part in a one-day workshop in Jakarta to strengthen practical cooperation on cyber resilience, crisis communication...",
+    "source_name": "EEAS",
+    "source_tier": "Official",
+    "source_url": "https://www.eeas.europa.eu/ESIWA_JagaRuangSiber_en",
+    "domain": "defense_reg",
+    "vectors": [
+      "Reg/Sanc"
+    ],
+    "sectors": [
+      "Defense",
+      "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-010",
+    "published_at": "2026-11-25",
+    "title": "EU Statement on Russia’s war of aggression against Ukraine, OSCE Forum for Security Co-operation N°1155 - Vienna, 25 November 2026",
+    "summary": "EU Statement on Russia’s war of aggression against Ukraine Mr Chair, the latest report by the UN Human Rights Monitoring Mission in Ukraine highlighted that in Ukraine “civilians die at alarming rates amid...",
+    "source_name": "EEAS",
+    "source_tier": "Official",
+    "source_url": "https://www.eeas.europa.eu/delegations/vienna-international-organisations/eu-statement-russias-war-aggression-against-ukraine-osce-forum-security-co-operation-ndeg1155-vienna_en",
+    "domain": "defense_reg",
+    "vectors": [
+      "Reg/Sanc"
+    ],
+    "sectors": [
+      "Defense",
+      "Public Admin"
+    ],
+    "theaters": [
+      "Eastern Flank",
+      "Western Europe"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-011",
+    "published_at": "2026-11-25",
+    "title": "EU Statement on the occasion of the sixty-seventh session of the Preparatory Commission of the Comprehensive Nuclear Test-Ban Treaty Organisation - Agenda...",
+    "summary": "EU Statement on the occasion of the sixty-seventh session of the Preparatory Commission of the Comprehensive Nuclear Test-Ban Treaty Organisation Vienna, 25-27 November 2026 I have the honour to speak on behalf of...",
+    "source_name": "EEAS",
+    "source_tier": "Official",
+    "source_url": "https://www.eeas.europa.eu/delegations/vienna-international-organisations/eu-statement-occasion-sixty-seventh-session-preparatory-commission-comprehensive-nuclear-test-ban_en",
+    "domain": "defense_reg",
+    "vectors": [
+      "Reg/Sanc"
+    ],
+    "sectors": [
+      "Energy"
+    ],
+    "theaters": [
+      "EU-Wide",
+      "Western Europe"
+    ],
+    "actors": [],
+    "regulations": [
+      "CER"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-012",
+    "published_at": "2026-11-25",
+    "title": "EU Statement on Ukraine",
+    "summary": "I have the honour to speak on behalf of the European Union and its Member States, the candidate countries: Albania, Bosnia and Herzegovina, Moldova, Montenegro, North Macedonia, Ukraine, as well as Andorra, Iceland...",
+    "source_name": "EEAS",
+    "source_tier": "Official",
+    "source_url": "https://www.eeas.europa.eu/delegations/council-europe/eu-statement-ukraine-7_en",
+    "domain": "defense_reg",
+    "vectors": [
+      "Reg/Sanc"
+    ],
+    "sectors": [
+      "Defense",
+      "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide",
+      "Eastern Flank"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-013",
+    "published_at": "2026-11-25",
+    "title": "Up-to-date news and opportunities in EU Informer digest by EU Delegation to Ukraine — essential updates weekly in your inbox",
+    "summary": "Every week, the EU Delegation to Ukraine prepares a collection of key news on European Union support for Ukraine, events in Ukraine—EU relations, Ukraine’s path to membership, as well as opportunities for Ukrainians...",
+    "source_name": "EEAS",
+    "source_tier": "Official",
+    "source_url": "https://www.eeas.europa.eu/delegations/ukraine/date-news-and-opportunities-eu-informer-digest-eu-delegation-ukraine-essential-updates-weekly-your_en",
+    "domain": "defense_reg",
+    "vectors": [
+      "Reg/Sanc"
+    ],
+    "sectors": [
+      "Defense",
+      "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide",
+      "Eastern Flank"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-014",
+    "published_at": "2026-11-25",
+    "title": "Commission adopts guidelines implementing the visa ban on combatants in Russia's war of aggression against Ukraine",
+    "summary": "Today, alongside the proposal for the EU's 22nd sanctions package, the Commission is taking action to strengthen Europe's security, ensuring that those linked to Russia's war of aggression are banned from our...",
+    "source_name": "EEAS",
+    "source_tier": "Official",
+    "source_url": "https://www.eeas.europa.eu/delegations/ukraine/commission-adopts-guidelines-implementing-visa-ban-combatants-russias-war-aggression-against-ukraine_en",
+    "domain": "defense_reg",
+    "vectors": [
+      "Reg/Sanc"
+    ],
+    "sectors": [
+      "Defense",
+      "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide",
+      "Eastern Flank"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
+    "regulations": [
+      "EU Sanctions"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-015",
+    "published_at": "2026-11-25",
+    "title": "EU Sanctions seminar conducted in Dushanbe",
+    "summary": "On 23-24 November 2026, the European Union (EU) organised a seminar in Tajikistan on EU sanctions. The seminar built on the existing close cooperation with the Republic of Tajikistan, with organisational support...",
+    "source_name": "EEAS",
+    "source_tier": "Official",
+    "source_url": "https://www.eeas.europa.eu/delegations/tajikistan/eu-sanctions-seminar-conducted-dushanbe_en",
+    "domain": "defense_reg",
+    "vectors": [
+      "Reg/Sanc"
+    ],
+    "sectors": [
+      "Defense",
+      "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "EU Sanctions"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-016",
+    "published_at": "2026-11-25",
+    "title": "Multiples vulnérabilités dans Tenable Enclave Security (25 novembre 2026)",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Enclave Security. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges...",
+    "source_name": "CERT-FR / ANSSI",
+    "source_tier": "Official",
+    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1615/",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-017",
+    "published_at": "2026-11-25",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (25 novembre 2026)",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte...",
+    "source_name": "CERT-FR / ANSSI",
+    "source_tier": "Official",
+    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1616/",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-018",
+    "published_at": "2026-11-25",
+    "title": "Vulnérabilité dans Laravel (25 novembre 2026)",
+    "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "source_name": "CERT-FR / ANSSI",
+    "source_tier": "Official",
+    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1617/",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-019",
+    "published_at": "2026-11-25",
+    "title": "Vulnérabilité dans les produits Schneider Electric (25 novembre 2026)",
+    "summary": "Une vulnérabilité a été découverte dans les produits Schneider Electric. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+    "source_name": "CERT-FR / ANSSI",
+    "source_tier": "Official",
+    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Energy"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2",
+      "CER"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-020",
+    "published_at": "2026-11-25",
+    "title": "Multiples vulnérabilités dans Symfony (25 novembre 2026)",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un...",
+    "source_name": "CERT-FR / ANSSI",
+    "source_tier": "Official",
+    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1619/",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-021",
+    "published_at": "2026-11-25",
+    "title": "Vulnérabilité dans Microsoft Office (25 novembre 2026)",
+    "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "source_name": "CERT-FR / ANSSI",
+    "source_tier": "Official",
+    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1620/",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-022",
+    "published_at": "2026-11-25",
+    "title": "Multiples vulnérabilités dans les produits VMware (25 novembre 2026)",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un...",
+    "source_name": "CERT-FR / ANSSI",
+    "source_tier": "Official",
+    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1622/",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-023",
+    "published_at": "2026-11-25",
+    "title": "NCSC-2026-0515 [1.00] [M/H] Kwetsbaarheid verholpen in OTRS",
+    "summary": "OTRS heeft een kwetsbaarheid verholpen in de Survey endpoint van versies 2024.3.1 tot en met 2026.8.1. De kwetsbaarheid betreft een SQL-injectie in de Survey endpoint, waardoor ongeauthenticeerde externe aanvallers...",
+    "source_name": "NCSC-NL",
+    "source_tier": "Official",
+    "source_url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0515",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-024",
+    "published_at": "2026-11-25",
+    "title": "When China and Russia jointly exploit Trump’s weaknesses: Shenzhen as a wake-up call",
+    "summary": "When China and Russia jointly exploit Trump’s weaknesses: Shenzhen as a wake-up call fanny.pollet@i… Wed, 11/25/2026 - 13:38 6 minutes The steady consolidation of the bilateral rapprochement between China and Russia...",
+    "source_name": "EUISS",
+    "source_tier": "Official",
+    "source_url": "https://www.iss.europa.eu/publications/commentary/when-china-and-russia-jointly-exploit-trumps-weaknesses-shenzhen-wake-call",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Defense",
+      "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [
+      "Russia / Kremlin",
+      "China / PRC"
+    ],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
     "id": "SIG-20261124-001",
     "published_at": "2026-11-24",
     "title": "CVE-2026-131914: Idunno AntiCsrf — Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
@@ -25,8 +736,8 @@
     "cve_ids": [
       "CVE-2026-131914"
     ],
-    "epss_score": 0.0061,
-    "epss_percentile": 0.5015,
+    "epss_score": 0.0429,
+    "epss_percentile": 0.9189,
     "ransomware_known": false
   },
   {
@@ -55,8 +766,8 @@
     "cve_ids": [
       "CVE-2026-132224"
     ],
-    "epss_score": 0.0041,
-    "epss_percentile": 0.3584,
+    "epss_score": 0.0078,
+    "epss_percentile": 0.5254,
     "ransomware_known": false
   },
   {
@@ -121,291 +832,6 @@
   {
     "id": "SIG-20261124-005",
     "published_at": "2026-11-24",
-    "title": "EU and Kosovo held the 14th Public Administration Reform Special Group Meeting",
-    "summary": "Minister for Digitalisation and Public Administration Lulëzon Jagxhiu and Head of the European Commission’s Unit covering Kosovo Jiří Plecitý co-chaired today in Pristina the 14 th meeting of the EU-Kosovo Special...",
-    "source_name": "EEAS",
-    "source_tier": "Official",
-    "source_url": "https://www.eeas.europa.eu/delegations/kosovo/eu-and-kosovo-held-14th-public-administration-reform-special-group-meeting_en",
-    "domain": "defense_reg",
-    "vectors": [
-      "Reg/Sanc"
-    ],
-    "sectors": [
-      "Public Admin"
-    ],
-    "theaters": [
-      "EU-Wide",
-      "Southern Europe & Med"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261124-006",
-    "published_at": "2026-11-24",
-    "title": "Statement by President von der Leyen on the 22nd package of sanctions against Russia",
-    "summary": "Today, we present our 22nd package of sanctions. The aim is to keep pressure on Russia to end their war of aggression in Ukraine. And we will continue to propose new sanctions until Russia shows genuine intent for a...",
-    "source_name": "EEAS",
-    "source_tier": "Official",
-    "source_url": "https://www.eeas.europa.eu/delegations/ukraine/statement-president-von-der-leyen-22nd-package-sanctions-against-russia_en",
-    "domain": "defense_reg",
-    "vectors": [
-      "Reg/Sanc"
-    ],
-    "sectors": [
-      "Defense",
-      "Public Admin"
-    ],
-    "theaters": [
-      "Eastern Flank"
-    ],
-    "actors": [
-      "Russia / Kremlin"
-    ],
-    "regulations": [
-      "EU Sanctions"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261124-007",
-    "published_at": "2026-11-24",
-    "title": "First-ever high-level EU roundtable on maritime security with the Indian Ocean Rim Association takes place in Delhi",
-    "summary": "New Delhi, 24 November 2026: The European Union (EU) is ready to intensify cooperation and joint efforts in fighting against maritime crime in the Indian Ocean, EU Ambassador to India Jean-Eric Paquet remarked during...",
-    "source_name": "EEAS",
-    "source_tier": "Official",
-    "source_url": "https://www.eeas.europa.eu/delegations/india/first-ever-high-level-eu-roundtable-maritime-security-indian-ocean-rim-association-takes-place-delhi_en",
-    "domain": "defense_reg",
-    "vectors": [
-      "Reg/Sanc"
-    ],
-    "sectors": [
-      "Transport"
-    ],
-    "theaters": [
-      "EU-Wide",
-      "Subsea & Maritime"
-    ],
-    "actors": [],
-    "regulations": [
-      "CER"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261124-008",
-    "published_at": "2026-11-24",
-    "title": "Vulnérabilité dans Google Chrome (24 novembre 2026)",
-    "summary": "Une vulnérabilité a été découverte dans Google Chrome. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
-    "source_name": "CERT-FR / ANSSI",
-    "source_tier": "Official",
-    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1608/",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261124-009",
-    "published_at": "2026-11-24",
-    "title": "Vulnérabilité dans Laravel (24 novembre 2026)",
-    "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "source_name": "CERT-FR / ANSSI",
-    "source_tier": "Official",
-    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1609/",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261124-010",
-    "published_at": "2026-11-24",
-    "title": "Multiples vulnérabilités dans Postfix (24 novembre 2026)",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
-    "source_name": "CERT-FR / ANSSI",
-    "source_tier": "Official",
-    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1610/",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261124-011",
-    "published_at": "2026-11-24",
-    "title": "Multiples vulnérabilités dans Traefik (24 novembre 2026)",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elle permet à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique...",
-    "source_name": "CERT-FR / ANSSI",
-    "source_tier": "Official",
-    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1611/",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261124-012",
-    "published_at": "2026-11-24",
-    "title": "Vulnérabilité dans les produits F5 (24 novembre 2026)",
-    "summary": "Une vulnérabilité a été découverte dans les produits F5. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "source_name": "CERT-FR / ANSSI",
-    "source_tier": "Official",
-    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1612/",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261124-013",
-    "published_at": "2026-11-24",
-    "title": "Multiples vulnérabilités dans OpenSSL (24 novembre 2026)",
-    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Elles permettent à un attaquant de provoquer un déni de service à distance.",
-    "source_name": "CERT-FR / ANSSI",
-    "source_tier": "Official",
-    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1613/",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261124-014",
-    "published_at": "2026-11-24",
-    "title": "Multiples vulnérabilités dans les produits Elastic (24 novembre 2026)",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un...",
-    "source_name": "CERT-FR / ANSSI",
-    "source_tier": "Official",
-    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1614/",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261124-015",
-    "published_at": "2026-11-24",
     "title": "NCSC-2026-0514 [1.00] [M/H] Kwetsbaarheden verholpen in Mitel MiCollab",
     "summary": "Mitel heeft meerdere kwetsbaarheden verholpen in Mitel MiCollab, specifiek in de Audio, Web en Video Conferencing component, voor versies tot en met 10.3.0.18. De kwetsbaarheden bevinden zich in de Audio, Web en...",
     "source_name": "NCSC-NL",
@@ -432,7 +858,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261124-016",
+    "id": "SIG-20261124-006",
     "published_at": "2026-11-24",
     "title": "Introducing CORNERSTONE: delivering external services for the NCSC",
     "summary": "The NCSC is seeking industry feedback on a new delivery model for modernising external cyber security services.",
@@ -460,7 +886,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261124-017",
+    "id": "SIG-20261124-007",
     "published_at": "2026-11-24",
     "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
     "summary": "How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.",
@@ -513,8 +939,8 @@
     "cve_ids": [
       "CVE-2026-133968"
     ],
-    "epss_score": 0.498,
-    "epss_percentile": 0.9892,
+    "epss_score": 0.2716,
+    "epss_percentile": 0.9849,
     "ransomware_known": false
   },
   {
@@ -543,8 +969,8 @@
     "cve_ids": [
       "CVE-2026-134624"
     ],
-    "epss_score": 0.0062,
-    "epss_percentile": 0.5029,
+    "epss_score": 0.0179,
+    "epss_percentile": 0.7889,
     "ransomware_known": false
   },
   {
@@ -613,122 +1039,6 @@
   {
     "id": "SIG-20261123-005",
     "published_at": "2026-11-23",
-    "title": "EU Statement – UN Security Council: Maintenance of peace and security of Ukraine",
-    "summary": "23 November 2026, New York – Statement on behalf of the European Union and its Member States by Ambassador H.E. Stavros Lambrinidis, Head of the Delegation of the European Union to the United Nations, at the UN...",
-    "source_name": "EEAS",
-    "source_tier": "Official",
-    "source_url": "https://www.eeas.europa.eu/delegations/un-new-york/eu-statement-un-security-council-maintenance-peace-and-security-ukraine-7_en",
-    "domain": "defense_reg",
-    "vectors": [
-      "Reg/Sanc"
-    ],
-    "sectors": [
-      "Defense",
-      "Public Admin"
-    ],
-    "theaters": [
-      "EU-Wide",
-      "Eastern Flank"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261123-006",
-    "published_at": "2026-11-23",
-    "title": "European Union reaffirms partnership with Mozambique to strengthen cybersecurity",
-    "summary": "Cybersecurity is essential to national sovereignty, public trust and economic development. The European Union and its Member States are working with Mozambique to strengthen national capacities and promote a safer...",
-    "source_name": "EEAS",
-    "source_tier": "Official",
-    "source_url": "https://www.eeas.europa.eu/delegations/mozambique/european-union-reaffirms-partnership-mozambique-strengthen-cybersecurity_en",
-    "domain": "defense_reg",
-    "vectors": [
-      "Reg/Sanc"
-    ],
-    "sectors": [
-      "Defense",
-      "Public Admin"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261123-007",
-    "published_at": "2026-11-23",
-    "title": "European Peace Facility: Council mobilises additional €1 billion in new military aid to Ukraine",
-    "summary": "Today, the Council adopted two decisions enabling the provision of new military aid to Ukraine under the European Peace Facility (EPF), worth €1 billion through the joint procurement of lethal and non-lethal...",
-    "source_name": "EEAS",
-    "source_tier": "Official",
-    "source_url": "https://www.eeas.europa.eu/delegations/ukraine/european-peace-facility-council-mobilises-additional-eur1-billion-new-military-aid-ukraine_en",
-    "domain": "defense_reg",
-    "vectors": [
-      "Reg/Sanc"
-    ],
-    "sectors": [
-      "Defense"
-    ],
-    "theaters": [
-      "EU-Wide",
-      "Eastern Flank"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261123-008",
-    "published_at": "2026-11-23",
-    "title": "Multiples vulnérabilités dans SPIP (23 novembre 2026)",
-    "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et une injection de requêtes illégitimes par rebond (CSRF).",
-    "source_name": "CERT-FR / ANSSI",
-    "source_tier": "Official",
-    "source_url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261123-009",
-    "published_at": "2026-11-23",
     "title": "NCSC-2026-0513 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk SOAR",
     "summary": "Splunk heeft meerdere kwetsbaarheden verholpen in Splunk SOAR (versies eerder dan 8.8.0). De kwetsbaarheden in Splunk SOAR betreffen diverse componenten van het platform, waaronder de REST API, playbook API...",
     "source_name": "NCSC-NL",
@@ -755,7 +1065,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261123-010",
+    "id": "SIG-20261123-006",
     "published_at": "2026-11-23",
     "title": "NCSC-2026-0512 [1.00] [M/H] Kwetsbaarheden verholpen in Splunk Enterprise door Splunk Inc.",
     "summary": "Splunk Inc. heeft meerdere kwetsbaarheden verholpen in Splunk Enterprise. De kwetsbaarheden in Splunk Enterprise betreffen onder andere onjuiste toegangscontrole en onvoldoende validatie in de REST API, het Analytics...",
@@ -808,8 +1118,8 @@
     "cve_ids": [
       "CVE-2026-129448"
     ],
-    "epss_score": 0.4007,
-    "epss_percentile": 0.9865,
+    "epss_score": 0.2416,
+    "epss_percentile": 0.9833,
     "ransomware_known": false
   },
   {
@@ -838,8 +1148,8 @@
     "cve_ids": [
       "CVE-2026-123890"
     ],
-    "epss_score": 0.0353,
-    "epss_percentile": 0.8944,
+    "epss_score": 0.0501,
+    "epss_percentile": 0.9301,
     "ransomware_known": false
   },
   {
@@ -868,8 +1178,8 @@
     "cve_ids": [
       "CVE-2026-76466"
     ],
-    "epss_score": 0.0219,
-    "epss_percentile": 0.8276,
+    "epss_score": 0.0112,
+    "epss_percentile": 0.6569,
     "ransomware_known": false
   },
   {
@@ -898,8 +1208,8 @@
     "cve_ids": [
       "CVE-2025-42884"
     ],
-    "epss_score": 0.009,
-    "epss_percentile": 0.6047,
+    "epss_score": 0.011,
+    "epss_percentile": 0.6529,
     "ransomware_known": false
   },
   {
@@ -936,65 +1246,6 @@
   {
     "id": "SIG-20261120-006",
     "published_at": "2026-11-20",
-    "title": "ITU Shatters Glass Ceiling",
-    "summary": "Women will lead the International Telecommunication Union as it charts the future of digital issues.",
-    "source_name": "CEPA",
-    "source_tier": "Think Tank",
-    "source_url": "https://cepa.org/article/itu-shatters-glass-ceiling/",
-    "domain": "hybrid_geo",
-    "vectors": [
-      "Espionage/Proxies"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261120-007",
-    "published_at": "2026-11-20",
-    "title": "Poland Foils Russian ‘Mass Casualty Plot’",
-    "summary": "The Kremlin’s shadow war is accelerating, but the alleged plot aimed at Poland takes this to an alarming level.",
-    "source_name": "CEPA",
-    "source_tier": "Think Tank",
-    "source_url": "https://cepa.org/article/poland-foils-russian-mass-casualty-plot/",
-    "domain": "hybrid_geo",
-    "vectors": [
-      "Sabotage"
-    ],
-    "sectors": [
-      "Defense",
-      "Public Admin"
-    ],
-    "theaters": [
-      "Eastern Flank"
-    ],
-    "actors": [
-      "Russia / Kremlin"
-    ],
-    "regulations": [
-      "CER"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261120-008",
-    "published_at": "2026-11-20",
     "title": "NCSC-2026-0509 [1.01] [M/H] Kwetsbaarheden verholpen in PHP",
     "summary": "The PHP Group heeft meerdere kwetsbaarheden verholpen in PHP, specifiek in de PHP SOAP-extensie, session handling, HTTP stream wrapper, core netwerkfunctionaliteit, PHP-FPM, en PHP-CGI componenten. Een aantal...",
     "source_name": "NCSC-NL",
@@ -1021,7 +1272,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261120-009",
+    "id": "SIG-20261120-007",
     "published_at": "2026-11-20",
     "title": "NCSC-2026-0511 [1.00] [M/H] Kwetsbaarheid verholpen in IBM Aspera Faspex",
     "summary": "IBM heeft een kwetsbaarheid verholpen in IBM Aspera Faspex versies 5.0.0 tot en met 5.0.19. De kwetsbaarheid betreft een onjuiste autorisatiecontrole die het een geauthenticeerde gebruiker mogelijk maakt om de...",
@@ -1049,7 +1300,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261120-010",
+    "id": "SIG-20261120-008",
     "published_at": "2026-11-20",
     "title": "NCSC-2026-0510 [1.00] [H/H] Kwetsbaarheden verholpen in VMware-producten",
     "summary": "VMware heeft kwetsbaarheden verholpen in VMware vCenter Directory Service, VMware Telco Cloud Platform, VMware SDDC Manager en VMware Tools voor Windows. De kwetsbaarheden betreffen meerdere VMware-producten en...",
@@ -1077,7 +1328,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261120-011",
+    "id": "SIG-20261120-009",
     "published_at": "2026-11-20",
     "title": "‘Russophobia’: a narrative for every occasion",
     "summary": "The Kremlin uses accusations of 'Russophobia' to dismiss evidence of Russian interference, cast defensive Western measures as aggression and portray nearby countries as irrationally hostile. The narrative is...",
@@ -1138,69 +1389,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261119-002",
-    "published_at": "2026-11-19",
-    "title": "Protecting Norway’s Gas From Russia",
-    "summary": "Russia has a taste for attacking energy facilities. Norway’s gas infrastructure is central to Europe’s economy, and it looks extremely vulnerable.",
-    "source_name": "CEPA",
-    "source_tier": "Think Tank",
-    "source_url": "https://cepa.org/article/protecting-norways-gas-from-russia/",
-    "domain": "hybrid_geo",
-    "vectors": [
-      "Espionage/Proxies"
-    ],
-    "sectors": [
-      "Energy"
-    ],
-    "theaters": [
-      "Baltics & Nordics",
-      "Subsea & Maritime"
-    ],
-    "actors": [
-      "Russia / Kremlin"
-    ],
-    "regulations": [
-      "NIS2",
-      "CER"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
     "id": "SIG-20261118-001",
-    "published_at": "2026-11-18",
-    "title": "CVE-2026-40217: BerriAI LiteLLM — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-    "summary": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "HIGH",
-    "cve_ids": [
-      "CVE-2026-40217"
-    ],
-    "epss_score": 0.828,
-    "epss_percentile": 0.9967,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261118-002",
     "published_at": "2026-11-18",
     "title": "2026-021: High Severity Vulnerability in Java SE and OpenJDK",
     "summary": "On 17 November 2026, Oracle and the OpenJDK project released fixes for CVE-2026-114938, a high severity vulnerability in OpenJDK which could lead, under certain circumstances, in unauthenticated Remote Code Execution...",
@@ -1226,11 +1415,11 @@
       "CVE-2026-114938"
     ],
     "epss_score": 0.5927,
-    "epss_percentile": 0.9913,
+    "epss_percentile": 0.9934,
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261118-003",
+    "id": "SIG-20261118-002",
     "published_at": "2026-11-18",
     "title": "CVE-2024-10441: Synology DiskStation Manager (DSM) — Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
     "summary": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified...",
@@ -1255,9 +1444,39 @@
     "cve_ids": [
       "CVE-2024-10441"
     ],
-    "epss_score": 0.0313,
-    "epss_percentile": 0.881,
+    "epss_score": 0.0276,
+    "epss_percentile": 0.8699,
     "ransomware_known": true
+  },
+  {
+    "id": "SIG-20261118-003",
+    "published_at": "2026-11-18",
+    "title": "CVE-2026-40217: BerriAI LiteLLM — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+    "summary": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-40217"
+    ],
+    "epss_score": 0.2021,
+    "epss_percentile": 0.9801,
+    "ransomware_known": false
   },
   {
     "id": "SIG-20261118-004",
@@ -1285,8 +1504,8 @@
     "cve_ids": [
       "CVE-2026-90817"
     ],
-    "epss_score": 0.3433,
-    "epss_percentile": 0.9843,
+    "epss_score": 0.1888,
+    "epss_percentile": 0.9786,
     "ransomware_known": false
   },
   {
@@ -1315,107 +1534,18 @@
     "cve_ids": [
       "CVE-2026-90436"
     ],
-    "epss_score": 0.0587,
-    "epss_percentile": 0.9332,
+    "epss_score": 0.027,
+    "epss_percentile": 0.8663,
     "ransomware_known": false
   },
   {
     "id": "SIG-20261118-006",
-    "published_at": "2026-11-18",
-    "title": "Europe and China 3 – The Coming Showdown",
-    "summary": "China was the big winner of the new trade era, and that soon caused a flood of red ink for European businesses.",
-    "source_name": "CEPA",
-    "source_tier": "Think Tank",
-    "source_url": "https://cepa.org/article/europe-and-china-the-coming-showdown/",
-    "domain": "hybrid_geo",
-    "vectors": [
-      "Espionage/Proxies"
-    ],
-    "sectors": [
-      "Defense",
-      "Public Admin"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [
-      "China / PRC"
-    ],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261118-007",
-    "published_at": "2026-11-18",
-    "title": "Europe and China 2 – The Age of Developing Disillusion",
-    "summary": "For much of the 2000s, the romance between China and the West blossomed. But the 2008 financial crisis changed Beijing’s thinking.",
-    "source_name": "CEPA",
-    "source_tier": "Think Tank",
-    "source_url": "https://cepa.org/article/europe-and-china-the-age-of-developing-disillusion/",
-    "domain": "hybrid_geo",
-    "vectors": [
-      "Espionage/Proxies"
-    ],
-    "sectors": [
-      "Space"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [
-      "China / PRC"
-    ],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261118-008",
     "published_at": "2026-11-18",
     "title": "2026-022: Critical vulnerabilities in Nginx",
     "summary": "On 18 November 2026, F5 published an advisory addressing five vulnerabilities in NGINX that allow an unauthenticated remote attacker to execute code with the privileges of the NGINX worker process. While researchers...",
     "source_name": "CERT-EU",
     "source_tier": "Official",
     "source_url": "https://cert.europa.eu/publications/security-advisories/2026-022/",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "EU-Wide"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "LOW",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261118-009",
-    "published_at": "2026-11-18",
-    "title": "NCSC-2026-0507 [1.00] [M/H] Kwetsbaarheden verholpen in Drupal core",
-    "summary": "Drupal heeft kwetsbaarheden verholpen in Drupal core. De eerste kwetsbaarheid betreft een potentiële gadget chain gerelateerd aan onveilige deserialisatie binnen Drupal core. Deze kwetsbaarheid is op zichzelf niet...",
-    "source_name": "NCSC-NL",
-    "source_tier": "Official",
-    "source_url": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0507",
     "domain": "cyber_kev",
     "vectors": [
       "Cyber/KEV"
@@ -1462,8 +1592,8 @@
     "cve_ids": [
       "CVE-2026-115731"
     ],
-    "epss_score": 0.1284,
-    "epss_percentile": 0.9637,
+    "epss_score": 0.1258,
+    "epss_percentile": 0.9693,
     "ransomware_known": false
   },
   {
@@ -1497,36 +1627,6 @@
   {
     "id": "SIG-20261113-001",
     "published_at": "2026-11-13",
-    "title": "CVE-2026-123039: Check Point Multiple Products — Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-    "summary": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability...",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [
-      "CVE-2026-123039"
-    ],
-    "epss_score": 0.0327,
-    "epss_percentile": 0.8862,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261113-002",
-    "published_at": "2026-11-13",
     "title": "CVE-2026-114713: UnrealIRCd UnrealIRCd — UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
     "summary": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with...",
     "source_name": "CISA KEV",
@@ -1551,7 +1651,37 @@
       "CVE-2026-114713"
     ],
     "epss_score": 0.0135,
-    "epss_percentile": 0.7212,
+    "epss_percentile": 0.7165,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261113-002",
+    "published_at": "2026-11-13",
+    "title": "CVE-2026-123039: Check Point Multiple Products — Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+    "summary": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability...",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-123039"
+    ],
+    "epss_score": 0.0023,
+    "epss_percentile": 0.0843,
     "ransomware_known": false
   },
   {
@@ -1692,12 +1822,12 @@
     "regulations": [
       "NIS2"
     ],
-    "exposure": "HIGH",
+    "exposure": "MODERATE",
     "cve_ids": [
       "CVE-2026-116606"
     ],
-    "epss_score": 0.7452,
-    "epss_percentile": 0.995,
+    "epss_score": 0.138,
+    "epss_percentile": 0.9718,
     "ransomware_known": false
   },
   {
@@ -1722,16 +1852,76 @@
     "regulations": [
       "NIS2"
     ],
-    "exposure": "HIGH",
+    "exposure": "MODERATE",
     "cve_ids": [
       "CVE-2026-111560"
     ],
-    "epss_score": 0.6377,
-    "epss_percentile": 0.9923,
+    "epss_score": 0.108,
+    "epss_percentile": 0.9656,
     "ransomware_known": false
   },
   {
     "id": "SIG-20261110-003",
+    "published_at": "2026-11-10",
+    "title": "CVE-2026-125350: Google Chromium — Google Chromium Use-After-Free Vulnerability",
+    "summary": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could...",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-125350"
+    ],
+    "epss_score": 0.068,
+    "epss_percentile": 0.9476,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261110-004",
+    "published_at": "2026-11-10",
+    "title": "CVE-2026-20320: Cisco BroadWorks — Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+    "summary": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-20320"
+    ],
+    "epss_score": 0.013,
+    "epss_percentile": 0.7051,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261110-005",
     "published_at": "2026-11-10",
     "title": "CVE-2026-124194: Microsoft Office — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
     "summary": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
@@ -1758,68 +1948,8 @@
     "cve_ids": [
       "CVE-2026-124194"
     ],
-    "epss_score": 0.2489,
-    "epss_percentile": 0.9794,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261110-004",
-    "published_at": "2026-11-10",
-    "title": "CVE-2026-125350: Google Chromium — Google Chromium Use-After-Free Vulnerability",
-    "summary": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could...",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [
-      "CVE-2026-125350"
-    ],
-    "epss_score": 0.068,
-    "epss_percentile": 0.9409,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261110-005",
-    "published_at": "2026-11-10",
-    "title": "CVE-2026-20320: Cisco BroadWorks — Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
-    "summary": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [
-      "CVE-2026-20320"
-    ],
-    "epss_score": 0.0168,
-    "epss_percentile": 0.7744,
+    "epss_score": 0.0104,
+    "epss_percentile": 0.6332,
     "ransomware_known": false
   },
   {
@@ -1848,8 +1978,8 @@
     "cve_ids": [
       "CVE-2026-111793"
     ],
-    "epss_score": 0.0117,
-    "epss_percentile": 0.6809,
+    "epss_score": 0.0098,
+    "epss_percentile": 0.6116,
     "ransomware_known": false
   },
   {
@@ -1883,36 +2013,6 @@
   {
     "id": "SIG-20261109-001",
     "published_at": "2026-11-09",
-    "title": "CVE-2026-123158: OpenBSD OpenSSH — OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-    "summary": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "HIGH",
-    "cve_ids": [
-      "CVE-2026-123158"
-    ],
-    "epss_score": 0.9554,
-    "epss_percentile": 0.9987,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261109-002",
-    "published_at": "2026-11-09",
     "title": "CVE-2026-116779: SignalWire FreeSwitch — SignalWire FreeSwitch Code Injection Vulnerability",
     "summary": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
     "source_name": "CISA KEV",
@@ -1936,8 +2036,38 @@
     "cve_ids": [
       "CVE-2026-116779"
     ],
-    "epss_score": 0.4411,
-    "epss_percentile": 0.9877,
+    "epss_score": 0.4369,
+    "epss_percentile": 0.9905,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261109-002",
+    "published_at": "2026-11-09",
+    "title": "CVE-2026-123158: OpenBSD OpenSSH — OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+    "summary": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-123158"
+    ],
+    "epss_score": 0.1421,
+    "epss_percentile": 0.9724,
     "ransomware_known": false
   },
   {
@@ -1966,8 +2096,8 @@
     "cve_ids": [
       "CVE-2026-102895"
     ],
-    "epss_score": 0.1879,
-    "epss_percentile": 0.9733,
+    "epss_score": 0.0855,
+    "epss_percentile": 0.9581,
     "ransomware_known": false
   },
   {
@@ -1996,8 +2126,8 @@
     "cve_ids": [
       "CVE-2026-123218"
     ],
-    "epss_score": 0.0101,
-    "epss_percentile": 0.6392,
+    "epss_score": 0.0078,
+    "epss_percentile": 0.524,
     "ransomware_known": false
   },
   {
@@ -2026,8 +2156,8 @@
     "cve_ids": [
       "CVE-2026-19868"
     ],
-    "epss_score": 0.0804,
-    "epss_percentile": 0.9486,
+    "epss_score": 0.0054,
+    "epss_percentile": 0.3892,
     "ransomware_known": false
   },
   {
@@ -2092,36 +2222,6 @@
   {
     "id": "SIG-20261104-002",
     "published_at": "2026-11-04",
-    "title": "CVE-2024-27834: Apple Multiple Products — Apple Multiple Products Improper Authentication Vulnerability",
-    "summary": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [
-      "CVE-2024-27834"
-    ],
-    "epss_score": 0.0156,
-    "epss_percentile": 0.7572,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261104-003",
-    "published_at": "2026-11-04",
     "title": "How political messaging spread in Armenian diaspora Facebook groups before the 2026 elections",
     "summary": "Inside the Armenian diaspora’s Facebook groups before the 2026 elections.",
     "source_name": "DFRLab",
@@ -2150,11 +2250,11 @@
   {
     "id": "SIG-20261103-001",
     "published_at": "2026-11-03",
-    "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
-    "summary": "The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience.",
+    "title": "Artificial intelligence and cyber intrusion",
+    "summary": "An NCSC assessment that examines current AI-enabled threat trends and projections of the threat landscape to 2028.",
     "source_name": "NCSC-UK",
     "source_tier": "Official",
-    "source_url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+    "source_url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
     "domain": "cyber_kev",
     "vectors": [
       "Cyber/KEV"
@@ -2163,7 +2263,7 @@
       "Digital"
     ],
     "theaters": [
-      "Western Europe"
+      "EU-Wide"
     ],
     "actors": [],
     "regulations": [
@@ -2179,11 +2279,11 @@
   {
     "id": "SIG-20261103-002",
     "published_at": "2026-11-03",
-    "title": "Artificial intelligence and cyber intrusion",
-    "summary": "An NCSC assessment that examines current AI-enabled threat trends and projections of the threat landscape to 2028.",
+    "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
+    "summary": "The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience.",
     "source_name": "NCSC-UK",
     "source_tier": "Official",
-    "source_url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
+    "source_url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
     "domain": "cyber_kev",
     "vectors": [
       "Cyber/KEV"
@@ -2192,7 +2292,7 @@
       "Digital"
     ],
     "theaters": [
-      "EU-Wide"
+      "Western Europe"
     ],
     "actors": [],
     "regulations": [
@@ -2400,13 +2500,13 @@
     "regulations": [
       "NIS2"
     ],
-    "exposure": "HIGH",
+    "exposure": "MODERATE",
     "cve_ids": [
       "CVE-2026-109618",
       "CVE-2026-109619"
     ],
-    "epss_score": 1.0,
-    "epss_percentile": 1.0,
+    "epss_score": 0.4508,
+    "epss_percentile": 0.9908,
     "ransomware_known": false
   },
   {
