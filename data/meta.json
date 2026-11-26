@@ -1,42 +1,42 @@
 {
-  "last_ingest_utc": "2026-11-25T17:47:51Z",
-  "last_ingest_cet": "2026-11-25 18:47 CET",
+  "last_ingest_utc": "2026-11-26T17:31:47Z",
+  "last_ingest_cet": "2026-11-26 18:31 CET",
   "signals_total_30d": 81,
   "nis2_exposure_alerts": 3,
-  "hybrid_kinetic_count": 28,
+  "hybrid_kinetic_count": 27,
   "briefs_count": 0,
   "tempo": {
     "by_sector": [
       {
         "name": "Energy",
-        "count_7d": 3,
-        "count_30d": 3,
-        "weekly_baseline_30d": 0.7,
-        "delta_pct": 329,
-        "status": "ELEVATED"
+        "count_7d": 1,
+        "count_30d": 1,
+        "weekly_baseline_30d": 0.23,
+        "delta_pct": 335,
+        "status": "BASELINE"
       },
       {
         "name": "Defense",
-        "count_7d": 16,
-        "count_30d": 17,
-        "weekly_baseline_30d": 3.97,
-        "delta_pct": 303,
+        "count_7d": 14,
+        "count_30d": 15,
+        "weekly_baseline_30d": 3.5,
+        "delta_pct": 300,
         "status": "ELEVATED"
       },
       {
         "name": "Transport",
-        "count_7d": 0,
-        "count_30d": 1,
-        "weekly_baseline_30d": 0.23,
-        "delta_pct": -100,
-        "status": "QUIET"
+        "count_7d": 1,
+        "count_30d": 2,
+        "weekly_baseline_30d": 0.47,
+        "delta_pct": 113,
+        "status": "BASELINE"
       },
       {
         "name": "Digital",
-        "count_7d": 33,
-        "count_30d": 53,
-        "weekly_baseline_30d": 12.37,
-        "delta_pct": 167,
+        "count_7d": 39,
+        "count_30d": 56,
+        "weekly_baseline_30d": 13.07,
+        "delta_pct": 198,
         "status": "ELEVATED"
       },
       {
@@ -49,20 +49,20 @@
       },
       {
         "name": "Public Admin",
-        "count_7d": 15,
-        "count_30d": 20,
-        "weekly_baseline_30d": 4.67,
-        "delta_pct": 221,
+        "count_7d": 12,
+        "count_30d": 17,
+        "weekly_baseline_30d": 3.97,
+        "delta_pct": 202,
         "status": "ELEVATED"
       }
     ],
     "by_theater": [
       {
         "name": "EU-Wide",
-        "count_7d": 35,
-        "count_30d": 45,
-        "weekly_baseline_30d": 10.5,
-        "delta_pct": 233,
+        "count_7d": 32,
+        "count_30d": 44,
+        "weekly_baseline_30d": 10.27,
+        "delta_pct": 212,
         "status": "ELEVATED"
       },
       {
@@ -75,10 +75,10 @@
       },
       {
         "name": "Eastern Flank",
-        "count_7d": 5,
-        "count_30d": 6,
-        "weekly_baseline_30d": 1.4,
-        "delta_pct": 257,
+        "count_7d": 3,
+        "count_30d": 4,
+        "weekly_baseline_30d": 0.93,
+        "delta_pct": 223,
         "status": "ELEVATED"
       },
       {
@@ -99,18 +99,18 @@
       },
       {
         "name": "Subsea & Maritime",
-        "count_7d": 0,
-        "count_30d": 1,
-        "weekly_baseline_30d": 0.23,
-        "delta_pct": -100,
-        "status": "QUIET"
+        "count_7d": 1,
+        "count_30d": 2,
+        "weekly_baseline_30d": 0.47,
+        "delta_pct": 113,
+        "status": "BASELINE"
       },
       {
         "name": "Transatlantic / Global",
-        "count_7d": 19,
-        "count_30d": 36,
-        "weekly_baseline_30d": 8.4,
-        "delta_pct": 126,
+        "count_7d": 25,
+        "count_30d": 37,
+        "weekly_baseline_30d": 8.63,
+        "delta_pct": 190,
         "status": "ELEVATED"
       }
     ]
@@ -118,7 +118,7 @@
   "top_actors_30d": [
     {
       "name": "Russia / Kremlin",
-      "count": 10
+      "count": 9
     },
     {
       "name": "China / PRC",
