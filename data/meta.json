@@ -1,9 +1,9 @@
 {
-  "last_ingest_utc": "2026-11-26T17:31:47Z",
-  "last_ingest_cet": "2026-11-26 18:31 CET",
-  "signals_total_30d": 81,
+  "last_ingest_utc": "2026-11-27T17:13:35Z",
+  "last_ingest_cet": "2026-11-27 18:13 CET",
+  "signals_total_30d": 80,
   "nis2_exposure_alerts": 3,
-  "hybrid_kinetic_count": 27,
+  "hybrid_kinetic_count": 25,
   "briefs_count": 0,
   "tempo": {
     "by_sector": [
@@ -17,10 +17,10 @@
       },
       {
         "name": "Defense",
-        "count_7d": 14,
-        "count_30d": 15,
-        "weekly_baseline_30d": 3.5,
-        "delta_pct": 300,
+        "count_7d": 16,
+        "count_30d": 17,
+        "weekly_baseline_30d": 3.97,
+        "delta_pct": 303,
         "status": "ELEVATED"
       },
       {
@@ -41,18 +41,18 @@
       },
       {
         "name": "Space",
-        "count_7d": 1,
-        "count_30d": 2,
-        "weekly_baseline_30d": 0.47,
-        "delta_pct": 113,
+        "count_7d": 2,
+        "count_30d": 3,
+        "weekly_baseline_30d": 0.7,
+        "delta_pct": 186,
         "status": "BASELINE"
       },
       {
         "name": "Public Admin",
-        "count_7d": 12,
-        "count_30d": 17,
-        "weekly_baseline_30d": 3.97,
-        "delta_pct": 202,
+        "count_7d": 9,
+        "count_30d": 12,
+        "weekly_baseline_30d": 2.8,
+        "delta_pct": 221,
         "status": "ELEVATED"
       }
     ],
@@ -60,9 +60,9 @@
       {
         "name": "EU-Wide",
         "count_7d": 32,
-        "count_30d": 44,
-        "weekly_baseline_30d": 10.27,
-        "delta_pct": 212,
+        "count_30d": 42,
+        "weekly_baseline_30d": 9.8,
+        "delta_pct": 227,
         "status": "ELEVATED"
       },
       {
@@ -76,18 +76,18 @@
       {
         "name": "Eastern Flank",
         "count_7d": 3,
-        "count_30d": 4,
-        "weekly_baseline_30d": 0.93,
-        "delta_pct": 223,
+        "count_30d": 3,
+        "weekly_baseline_30d": 0.7,
+        "delta_pct": 329,
         "status": "ELEVATED"
       },
       {
         "name": "Western Europe",
-        "count_7d": 2,
-        "count_30d": 3,
-        "weekly_baseline_30d": 0.7,
-        "delta_pct": 186,
-        "status": "BASELINE"
+        "count_7d": 3,
+        "count_30d": 4,
+        "weekly_baseline_30d": 0.93,
+        "delta_pct": 223,
+        "status": "ELEVATED"
       },
       {
         "name": "Southern Europe & Med",
@@ -118,15 +118,15 @@
   "top_actors_30d": [
     {
       "name": "Russia / Kremlin",
-      "count": 9
-    },
-    {
-      "name": "China / PRC",
-      "count": 4
+      "count": 7
     },
     {
       "name": "Iran / IRGC",
       "count": 2
+    },
+    {
+      "name": "China / PRC",
+      "count": 1
     }
   ],
   "feeds_status": [
@@ -143,7 +143,7 @@
       "tier": "Official",
       "url": "https://cert.europa.eu/publications/security-advisories-rss",
       "status": "OK",
-      "items_ingested": 9,
+      "items_ingested": 8,
       "error": null
     },
     {
@@ -174,16 +174,16 @@
       "name": "EUvsDisinfo",
       "tier": "Official",
       "url": "https://euvsdisinfo.eu/feed/",
-      "status": "OK",
-      "items_ingested": 5,
-      "error": null
+      "status": "ERROR",
+      "items_ingested": 0,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://euvsdisinfo.eu/feed/"
     },
     {
       "name": "EUISS",
       "tier": "Official",
       "url": "https://www.iss.europa.eu/rss.xml",
       "status": "OK",
-      "items_ingested": 4,
+      "items_ingested": 6,
       "error": null
     },
     {
