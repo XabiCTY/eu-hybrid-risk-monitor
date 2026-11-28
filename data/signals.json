@@ -2,6 +2,96 @@
   {
     "id": "SIG-20261127-001",
     "published_at": "2026-11-27",
+    "title": "CVE-2026-136716: Drupal Core — Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+    "summary": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one...",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-136716"
+    ],
+    "epss_score": 0.0546,
+    "epss_percentile": 0.9353,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261127-002",
+    "published_at": "2026-11-27",
+    "title": "CVE-2026-120705: OSGeo GeoServer — OSGeo GeoServer XML Injection Vulnerability",
+    "summary": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP...",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-120705"
+    ],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261127-003",
+    "published_at": "2026-11-27",
+    "title": "CVE-2026-129243: OSGeo GeoServer — OSGeo GeoServer Incorrect Authorization Vulnerability",
+    "summary": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with...",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-129243"
+    ],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261127-004",
+    "published_at": "2026-11-27",
     "title": "NCSC-2026-0526 [1.01] [M/H] Kwetsbaarheden verholpen in GeoServer",
     "summary": "GeoServer heeft 17 kwetsbaarheden verholpen, waarvan GeoServer er één als kritiek en twaalf als hoog heeft beoordeeld. De kwetsbaarheid met kenmerk CVE-2026-129245 heeft een CVSS-score van 9.2 en betreft een...",
     "source_name": "NCSC-NL",
@@ -30,7 +120,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-002",
+    "id": "SIG-20261127-005",
     "published_at": "2026-11-27",
     "title": "Caspar Hobhouse on incorporating climate funding into defence spending",
     "summary": "Caspar Hobhouse on incorporating climate funding into defence spending marianna.liana… Fri, 11/27/2026 - 16:03 Discussing climate adaptations as a form of defence, Caspar Hobhouse argued in Green Central Banking that...",
@@ -59,7 +149,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-003",
+    "id": "SIG-20261127-006",
     "published_at": "2026-11-27",
     "title": "Workshop on the Emerging and Disruptive Technologies that can bolster European defence, economic growth, and indispensability",
     "summary": "Workshop on the Emerging and Disruptive Technologies that can bolster European defence, economic growth, and indispensability",
@@ -87,7 +177,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-004",
+    "id": "SIG-20261127-007",
     "published_at": "2026-11-27",
     "title": "\"The EU budget must look ahead, not protect the past.\"",
     "summary": "\"The EU budget must look ahead, not protect the past.\" marianna.liana… Fri, 11/27/2026 - 15:16 \"There is a very real risk that we will once again end up with an [EU budget] deal that primarily protects the past and...",
@@ -116,7 +206,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-005",
+    "id": "SIG-20261127-008",
     "published_at": "2026-11-27",
     "title": "Steven Everts on EU leaders' clash over the budget deal",
     "summary": "Steven Everts on EU leaders' clash over the budget deal marianna.liana… Fri, 11/27/2026 - 13:40 Our Director Steven Everts joined Euronews' Europe Tonight show to discuss EU leaders' stand-off over the EU budget...",
@@ -145,7 +235,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-006",
+    "id": "SIG-20261127-009",
     "published_at": "2026-11-27",
     "title": "Ondřej Ditrych on the expansion of Ukraine's strikes on Russian targets in international waters",
     "summary": "Ondřej Ditrych on the expansion of Ukraine's strikes on Russian targets in international waters marianna.liana… Fri, 11/27/2026 - 12:32 Discussing the expansion of Ukraine’s strikes on Russian targets close to NATO...",
@@ -176,7 +266,36 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-007",
+    "id": "SIG-20261127-010",
+    "published_at": "2026-11-27",
+    "title": "Joint Press Release: 12th EU-India Foreign Policy and Security Consultations",
+    "summary": "Joint Press Release: 12th EU-India Foreign Policy and Security Consultations",
+    "source_name": "EEAS",
+    "source_tier": "Official",
+    "source_url": "https://www.eeas.europa.eu/eeas/joint-press-release-12th-eu-india-foreign-policy-and-security-consultations_en",
+    "domain": "defense_reg",
+    "vectors": [
+      "Reg/Sanc"
+    ],
+    "sectors": [
+      "Defense",
+      "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261127-011",
     "published_at": "2026-11-27",
     "title": "Commander of EUNAVFOR ASPIDES Participates in EUMC Meeting at Chiefs of Defence Level",
     "summary": "On 25 November 2026, Rear Admiral Vasileios Gryparis, Commander of EUNAVFOR ASPIDES, participated in the European Union Military Committee (EUMC) meeting at the Chiefs of Defence level (CHODs), held in Brussels under...",
@@ -205,7 +324,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-008",
+    "id": "SIG-20261127-012",
     "published_at": "2026-11-27",
     "title": "Multiples vulnérabilités dans Synology DSM et DSM Enterprise (27 novembre 2026)",
     "summary": "De multiples vulnérabilités ont été découvertes dans Synology DSM et DSM Enterprise. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
@@ -233,7 +352,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-009",
+    "id": "SIG-20261127-013",
     "published_at": "2026-11-27",
     "title": "Multiples vulnérabilités dans Xen (27 novembre 2026)",
     "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité...",
@@ -261,7 +380,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-010",
+    "id": "SIG-20261127-014",
     "published_at": "2026-11-27",
     "title": "Multiples vulnérabilités dans FreeRADIUS (27 novembre 2026)",
     "summary": "De multiples vulnérabilités ont été découvertes dans FreeRADIUS. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une...",
@@ -289,7 +408,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-011",
+    "id": "SIG-20261127-015",
     "published_at": "2026-11-27",
     "title": "Multiples vulnérabilités dans MongoDB (27 novembre 2026)",
     "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la...",
@@ -317,7 +436,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-012",
+    "id": "SIG-20261127-016",
     "published_at": "2026-11-27",
     "title": "Multiples vulnérabilités dans SolarWinds Serv-U (27 novembre 2026)",
     "summary": "De multiples vulnérabilités ont été découvertes dans SolarWinds Serv-U. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un...",
@@ -345,7 +464,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-013",
+    "id": "SIG-20261127-017",
     "published_at": "2026-11-27",
     "title": "Multiples vulnérabilités dans SPIP (27 novembre 2026)",
     "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et...",
@@ -373,7 +492,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-014",
+    "id": "SIG-20261127-018",
     "published_at": "2026-11-27",
     "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (27 novembre 2026)",
     "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges...",
@@ -401,7 +520,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-015",
+    "id": "SIG-20261127-019",
     "published_at": "2026-11-27",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (27 novembre 2026)",
     "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et...",
@@ -429,7 +548,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-016",
+    "id": "SIG-20261127-020",
     "published_at": "2026-11-27",
     "title": "NCSC-2026-0525 [1.00] [M/H] Kwetsbaarheden verholpen in Linux kernel",
     "summary": "De Linux kernel ontwikkelaars hebben meerdere kwetsbaarheden verholpen in diverse subsystemen en drivers, waaronder IPv6, KVM, SUNRPC, NFS, SMB, XFS, overlayfs, OCFS2, media drivers, netwerkdrivers, geheugenbeheer...",
@@ -457,7 +576,7 @@
     "ransomware_known": false
   },
   {
-    "id": "SIG-20261127-017",
+    "id": "SIG-20261127-021",
     "published_at": "2026-11-27",
     "title": "\"The Russians are not stupid, they know that these demands are unacceptable to the Europeans.\"",
     "summary": "\"The Russians are not stupid, they know that these demands are unacceptable to the Europeans.\" marianna.liana… Fri, 11/27/2026 - 15:05 \"Russia is pushing the narrative, especially to the Americans, that the real...",
@@ -768,8 +887,8 @@
     "cve_ids": [
       "CVE-2026-133469"
     ],
-    "epss_score": 0.3177,
-    "epss_percentile": 0.987,
+    "epss_score": 0.3332,
+    "epss_percentile": 0.9876,
     "ransomware_known": false
   },
   {
@@ -798,8 +917,8 @@
     "cve_ids": [
       "CVE-2026-133323"
     ],
-    "epss_score": 0.0563,
-    "epss_percentile": 0.9372,
+    "epss_score": 0.0731,
+    "epss_percentile": 0.9514,
     "ransomware_known": false
   },
   {
@@ -828,8 +947,8 @@
     "cve_ids": [
       "CVE-2025-41450"
     ],
-    "epss_score": 0.0427,
-    "epss_percentile": 0.9187,
+    "epss_score": 0.0509,
+    "epss_percentile": 0.9314,
     "ransomware_known": false
   },
   {
@@ -858,8 +977,8 @@
     "cve_ids": [
       "CVE-2023-25915"
     ],
-    "epss_score": 0.0249,
-    "epss_percentile": 0.8535,
+    "epss_score": 0.0294,
+    "epss_percentile": 0.8787,
     "ransomware_known": false
   },
   {
@@ -888,12 +1007,42 @@
     "cve_ids": [
       "CVE-2023-25914"
     ],
-    "epss_score": 0.0185,
-    "epss_percentile": 0.7959,
+    "epss_score": 0.0218,
+    "epss_percentile": 0.831,
     "ransomware_known": false
   },
   {
     "id": "SIG-20261125-006",
+    "published_at": "2026-11-25",
+    "title": "CVE-2026-133303: Mitel MiCollab — Mitel MiCollab XML Injection Vulnerability",
+    "summary": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious...",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-133303"
+    ],
+    "epss_score": 0.0155,
+    "epss_percentile": 0.7546,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261125-007",
     "published_at": "2026-11-25",
     "title": "CVE-2026-103406: Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router — Hewlett Packard Enterprise (HPE) Juniper...",
     "summary": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a...",
@@ -919,37 +1068,7 @@
       "CVE-2026-103406"
     ],
     "epss_score": 0.0154,
-    "epss_percentile": 0.7518,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261125-007",
-    "published_at": "2026-11-25",
-    "title": "CVE-2026-133303: Mitel MiCollab — Mitel MiCollab XML Injection Vulnerability",
-    "summary": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious...",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [
-      "CVE-2026-133303"
-    ],
-    "epss_score": 0.0133,
-    "epss_percentile": 0.7111,
+    "epss_percentile": 0.7519,
     "ransomware_known": false
   },
   {
@@ -978,8 +1097,8 @@
     "cve_ids": [
       "CVE-2026-133311"
     ],
-    "epss_score": 0.0098,
-    "epss_percentile": 0.6122,
+    "epss_score": 0.0113,
+    "epss_percentile": 0.6609,
     "ransomware_known": false
   },
   {
@@ -1008,8 +1127,8 @@
     "cve_ids": [
       "CVE-2026-133324"
     ],
-    "epss_score": 0.0083,
-    "epss_percentile": 0.5485,
+    "epss_score": 0.0097,
+    "epss_percentile": 0.6081,
     "ransomware_known": false
   },
   {
@@ -1038,8 +1157,8 @@
     "cve_ids": [
       "CVE-2026-133275"
     ],
-    "epss_score": 0.0077,
-    "epss_percentile": 0.5209,
+    "epss_score": 0.009,
+    "epss_percentile": 0.5782,
     "ransomware_known": false
   },
   {
@@ -1257,67 +1376,6 @@
   {
     "id": "SIG-20261125-018",
     "published_at": "2026-11-25",
-    "title": "EU Statement on Russia’s war of aggression against Ukraine, OSCE Forum for Security Co-operation N°1155 - Vienna, 25 November 2026",
-    "summary": "EU Statement on Russia’s war of aggression against Ukraine Mr Chair, the latest report by the UN Human Rights Monitoring Mission in Ukraine highlighted that in Ukraine “civilians die at alarming rates amid...",
-    "source_name": "EEAS",
-    "source_tier": "Official",
-    "source_url": "https://www.eeas.europa.eu/delegations/vienna-international-organisations/eu-statement-russias-war-aggression-against-ukraine-osce-forum-security-co-operation-ndeg1155-vienna_en",
-    "domain": "defense_reg",
-    "vectors": [
-      "Reg/Sanc"
-    ],
-    "sectors": [
-      "Defense",
-      "Public Admin"
-    ],
-    "theaters": [
-      "Eastern Flank",
-      "Western Europe"
-    ],
-    "actors": [
-      "Russia / Kremlin"
-    ],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261125-019",
-    "published_at": "2026-11-25",
-    "title": "EU Statement on the occasion of the sixty-seventh session of the Preparatory Commission of the Comprehensive Nuclear Test-Ban Treaty Organisation - Agenda...",
-    "summary": "EU Statement on the occasion of the sixty-seventh session of the Preparatory Commission of the Comprehensive Nuclear Test-Ban Treaty Organisation Vienna, 25-27 November 2026 I have the honour to speak on behalf of...",
-    "source_name": "EEAS",
-    "source_tier": "Official",
-    "source_url": "https://www.eeas.europa.eu/delegations/vienna-international-organisations/eu-statement-occasion-sixty-seventh-session-preparatory-commission-comprehensive-nuclear-test-ban_en",
-    "domain": "defense_reg",
-    "vectors": [
-      "Reg/Sanc"
-    ],
-    "sectors": [
-      "Energy"
-    ],
-    "theaters": [
-      "EU-Wide",
-      "Western Europe"
-    ],
-    "actors": [],
-    "regulations": [
-      "CER"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [],
-    "epss_score": null,
-    "epss_percentile": null,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261125-020",
-    "published_at": "2026-11-25",
     "title": "NATO Needs Joint Solution to Critical Minerals Threat",
     "summary": "The vulnerability of the West’s defense industries to Chinese dominance of critical minerals can only be overcome through US cooperation with NATO and other close allies.",
     "source_name": "CEPA",
@@ -1371,8 +1429,8 @@
     "cve_ids": [
       "CVE-2026-132165"
     ],
-    "epss_score": 0.0838,
-    "epss_percentile": 0.9574,
+    "epss_score": 0.1398,
+    "epss_percentile": 0.9722,
     "ransomware_known": false
   },
   {
@@ -1402,7 +1460,7 @@
       "CVE-2026-131914"
     ],
     "epss_score": 0.0424,
-    "epss_percentile": 0.918,
+    "epss_percentile": 0.9181,
     "ransomware_known": false
   },
   {
@@ -1432,7 +1490,7 @@
       "CVE-2026-132224"
     ],
     "epss_score": 0.0106,
-    "epss_percentile": 0.6385,
+    "epss_percentile": 0.6386,
     "ransomware_known": false
   },
   {
@@ -1513,12 +1571,12 @@
     "regulations": [
       "NIS2"
     ],
-    "exposure": "MODERATE",
+    "exposure": "HIGH",
     "cve_ids": [
       "CVE-2026-133968"
     ],
-    "epss_score": 0.2716,
-    "epss_percentile": 0.985,
+    "epss_score": 0.6275,
+    "epss_percentile": 0.994,
     "ransomware_known": false
   },
   {
@@ -1547,8 +1605,8 @@
     "cve_ids": [
       "CVE-2026-134624"
     ],
-    "epss_score": 0.0179,
-    "epss_percentile": 0.7893,
+    "epss_score": 0.0186,
+    "epss_percentile": 0.798,
     "ransomware_known": false
   },
   {
@@ -1638,7 +1696,7 @@
       "CVE-2026-76466"
     ],
     "epss_score": 0.0112,
-    "epss_percentile": 0.6574,
+    "epss_percentile": 0.6575,
     "ransomware_known": false
   },
   {
@@ -1668,7 +1726,37 @@
       "CVE-2025-42884"
     ],
     "epss_score": 0.011,
-    "epss_percentile": 0.6534,
+    "epss_percentile": 0.6535,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261120-005",
+    "published_at": "2026-11-20",
+    "title": "‘Russophobia’: a narrative for every occasion",
+    "summary": "The Kremlin uses accusations of 'Russophobia' to dismiss evidence of Russian interference, cast defensive Western measures as aggression and portray nearby countries as irrationally hostile. The narrative is...",
+    "source_name": "EUvsDisinfo",
+    "source_tier": "Official",
+    "source_url": "https://euvsdisinfo.eu/russophobia-a-narrative-for-every-occasion/",
+    "domain": "hybrid_geo",
+    "vectors": [
+      "Influence"
+    ],
+    "sectors": [
+      "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
     "ransomware_known": false
   },
   {
@@ -1734,6 +1822,36 @@
   {
     "id": "SIG-20261118-003",
     "published_at": "2026-11-18",
+    "title": "CVE-2026-90817: Vanderbilt University Research Electronic Data Capture (REDCap) — Vanderbilt University Research Electronic Data Capture (REDCap) Code...",
+    "summary": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit...",
+    "source_name": "CISA KEV",
+    "source_tier": "Official",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
+    "domain": "cyber_kev",
+    "vectors": [
+      "Cyber/KEV"
+    ],
+    "sectors": [
+      "Digital"
+    ],
+    "theaters": [
+      "Transatlantic / Global"
+    ],
+    "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "MODERATE",
+    "cve_ids": [
+      "CVE-2026-90817"
+    ],
+    "epss_score": 0.3758,
+    "epss_percentile": 0.9889,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261118-004",
+    "published_at": "2026-11-18",
     "title": "CVE-2026-40217: BerriAI LiteLLM — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
     "summary": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
     "source_name": "CISA KEV",
@@ -1759,36 +1877,6 @@
     ],
     "epss_score": 0.2063,
     "epss_percentile": 0.9806,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261118-004",
-    "published_at": "2026-11-18",
-    "title": "CVE-2026-90817: Vanderbilt University Research Electronic Data Capture (REDCap) — Vanderbilt University Research Electronic Data Capture (REDCap) Code...",
-    "summary": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit...",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [
-      "CVE-2026-90817"
-    ],
-    "epss_score": 0.1888,
-    "epss_percentile": 0.9787,
     "ransomware_known": false
   },
   {
@@ -1818,7 +1906,7 @@
       "CVE-2026-90436"
     ],
     "epss_score": 0.027,
-    "epss_percentile": 0.8666,
+    "epss_percentile": 0.8667,
     "ransomware_known": false
   },
   {
@@ -1940,36 +2028,6 @@
   {
     "id": "SIG-20261113-002",
     "published_at": "2026-11-13",
-    "title": "CVE-2026-123039: Check Point Multiple Products — Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-    "summary": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability...",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [
-      "CVE-2026-123039"
-    ],
-    "epss_score": 0.0023,
-    "epss_percentile": 0.0843,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261113-003",
-    "published_at": "2026-11-13",
     "title": "Jarmo Lindberg re-elected Chair of Hybrid CoE’s Steering Board",
     "summary": "General Jarmo Lindberg (retired), member of the parliament of Finland, has been re-elected as Chair of the Steering Board of the European Centre of Excellence for Countering Hybrid Threats (Hybrid CoE) from 1 January...",
     "source_name": "Hybrid CoE",
@@ -1991,6 +2049,37 @@
       "NIS2"
     ],
     "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261113-003",
+    "published_at": "2026-11-13",
+    "title": "Peace on Moscow’s terms: disinformation ahead of the Abu Dhabi talks",
+    "summary": "Ahead of US-mediated peace talks in Abu Dhabi, Russia used disinformation to cast Europe as an obstacle of peace and pressed for its exclusion from negotiations. The campaign aimed to weaken Ukraine’s position, split...",
+    "source_name": "EUvsDisinfo",
+    "source_tier": "Official",
+    "source_url": "https://euvsdisinfo.eu/peace-on-moscows-terms-disinformation-ahead-of-the-abu-dhabi-talks/",
+    "domain": "hybrid_geo",
+    "vectors": [
+      "Influence"
+    ],
+    "sectors": [
+      "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide",
+      "Eastern Flank"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
     "cve_ids": [],
     "epss_score": null,
     "epss_percentile": null,
@@ -2054,68 +2143,6 @@
   },
   {
     "id": "SIG-20261110-001",
-    "published_at": "2026-11-10",
-    "title": "CVE-2026-124194: Microsoft Office — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
-    "summary": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV",
-      "Sabotage"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2",
-      "CER"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [
-      "CVE-2026-124194"
-    ],
-    "epss_score": 0.0104,
-    "epss_percentile": 0.6338,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261110-002",
-    "published_at": "2026-11-10",
-    "title": "CVE-2026-111793: Openwave Messaging Limited Webtop Media Transcoder — Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between...",
-    "summary": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if...",
-    "source_name": "CISA KEV",
-    "source_tier": "Official",
-    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
-    "domain": "cyber_kev",
-    "vectors": [
-      "Cyber/KEV"
-    ],
-    "sectors": [
-      "Digital"
-    ],
-    "theaters": [
-      "Transatlantic / Global"
-    ],
-    "actors": [],
-    "regulations": [
-      "NIS2"
-    ],
-    "exposure": "MODERATE",
-    "cve_ids": [
-      "CVE-2026-111793"
-    ],
-    "epss_score": 0.0098,
-    "epss_percentile": 0.6121,
-    "ransomware_known": false
-  },
-  {
-    "id": "SIG-20261110-003",
     "published_at": "2026-11-10",
     "title": "ENISA reveals the State of Cybersecurity in the Union",
     "summary": "ENISA Executive Director, Juhan Lepassaar , said: “The State of Cybersecurity in the Union reflects on the EU's collective effort and determination to become more resilient. However, challenges persist and recent...",
@@ -2311,6 +2338,36 @@
       "CER"
     ],
     "exposure": "MODERATE",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261030-001",
+    "published_at": "2026-10-30",
+    "title": "Russia introduces new laws to jail critics, but denies it holds any political prisoners",
+    "summary": "Every year on 30 October, the world marks the Day of Remembrance of the Victims of Political Repressions. In Russia, people are being imprisoned on charges that rights groups say are false, yet the authorities refuse...",
+    "source_name": "EUvsDisinfo",
+    "source_tier": "Official",
+    "source_url": "https://euvsdisinfo.eu/russia-introduces-new-laws-to-jail-critics-but-denies-it-holds-any-political-prisoners/",
+    "domain": "hybrid_geo",
+    "vectors": [
+      "Influence"
+    ],
+    "sectors": [
+      "Public Admin"
+    ],
+    "theaters": [
+      "EU-Wide"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
     "cve_ids": [],
     "epss_score": null,
     "epss_percentile": null,
@@ -2665,6 +2722,37 @@
     "ransomware_known": false
   },
   {
+    "id": "SIG-20261009-001",
+    "published_at": "2026-10-09",
+    "title": "How to justify crimes against humanity: the Kremlin method",
+    "summary": "Pro-Kremlin disinformation denies documented Russian attacks on civilians, dismisses war crimes, and exploits distorted Second World War narratives to justify aggression against Ukraine. It also portrays NATO as a...",
+    "source_name": "EUvsDisinfo",
+    "source_tier": "Official",
+    "source_url": "https://euvsdisinfo.eu/how-to-justify-crimes-against-humanity-the-kremlin-method/",
+    "domain": "hybrid_geo",
+    "vectors": [
+      "Influence"
+    ],
+    "sectors": [
+      "Defense"
+    ],
+    "theaters": [
+      "Eastern Flank",
+      "Transatlantic / Global"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
     "id": "SIG-20261007-001",
     "published_at": "2026-10-07",
     "title": "2026-015: Critical Vulnerability in Multiple Atlassian Products",
@@ -2683,6 +2771,37 @@
       "EU-Wide"
     ],
     "actors": [],
+    "regulations": [
+      "NIS2"
+    ],
+    "exposure": "LOW",
+    "cve_ids": [],
+    "epss_score": null,
+    "epss_percentile": null,
+    "ransomware_known": false
+  },
+  {
+    "id": "SIG-20261005-001",
+    "published_at": "2026-10-05",
+    "title": "Bucha denial at UNGA and Nazi narratives justifying strikes on Ukraine",
+    "summary": "Kremlin FIMI recycles Bucha denial, child-trafficking claims and Nazi narratives to reverse blame and justify Russia’s actions in Ukraine.",
+    "source_name": "EUvsDisinfo",
+    "source_tier": "Official",
+    "source_url": "https://euvsdisinfo.eu/bucha-denial-at-unga-and-nazi-narratives-justifying-strikes-on-ukraine/",
+    "domain": "hybrid_geo",
+    "vectors": [
+      "Influence"
+    ],
+    "sectors": [
+      "Public Admin"
+    ],
+    "theaters": [
+      "Eastern Flank",
+      "Transatlantic / Global"
+    ],
+    "actors": [
+      "Russia / Kremlin"
+    ],
     "regulations": [
       "NIS2"
     ],
